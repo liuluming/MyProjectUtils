@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.my51c.see51.app.DeviceStatusActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#90A4AD">
+
+        <ImageButton
+            android:id="@+id/networkopt_btn_finish"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/DIMEN_10PX"
+            android:background="@drawable/running_statu_icon_back"
+            android:onClick="deviceStatuOnFinish" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/networkopt_btn_finish"
+            android:fontFamily="@string/myfont"
+            android:text="运行状态"
+            android:textColor="@color/white"
+            android:textSize="@dimen/DIMEN_38PX" />
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/device_statu_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/DIMEN_20PX"
+        android:layout_marginLeft="@dimen/DIMEN_34PX"
+        android:layout_marginRight="@dimen/DIMEN_34PX"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/device_rb_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/device_status_start_selector"
+            android:button="@null"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:text="天线状态"
+            android:textColor="@color/device_statu_text_selcet"
+            android:textSize="@dimen/DIMEN_38PX" />
+
+        <RadioButton
+            android:id="@+id/device_rb_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/device_status_coremodule_selector"
+            android:button="@null"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="核心模块状态"
+            android:textColor="@color/device_statu_text_selcet"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/hengtiao" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/device_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

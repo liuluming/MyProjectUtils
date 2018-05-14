@@ -1,0 +1,525 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bw_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ToggleButton
+            android:id="@+id/interfer_bwonoff"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/DIMEN_10PX"
+            android:background="@drawable/selector_super_set_btnchoose"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inter_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:fontFamily="@string/myfont"
+            android:text="名字"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_name"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="1"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:text="name01"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bwinterfer_ip_add"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="IP01"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_ed01"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="1"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Button
+            android:id="@+id/bwinterfer_ipdelbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_15PX"
+            android:background="@drawable/lajitong" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bwinterfer_ip_add01"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="IP02"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_ed02"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="1"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Button
+            android:id="@+id/bwinterfer_ipbtndele01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_15PX"
+            android:background="@drawable/lajitong" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bwinterfer_ip_add02"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="IP03"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_ed03"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="1"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Button
+            android:id="@+id/bwinterfer_ipbtndele02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_15PX"
+            android:background="@drawable/lajitong" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bwinterfer_ip_add03"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="IP04"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_ed04"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="1"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Button
+            android:id="@+id/bwinterfer_ipbtndele03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_15PX"
+            android:background="@drawable/lajitong" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bwinterfer_ip_add04"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:fontFamily="@string/myfont"
+            android:text="IP05"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_ed05"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="2"
+            android:background="@drawable/bg_edittext"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Button
+            android:id="@+id/bwinterfer_ipbtndele04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_15PX"
+            android:background="@drawable/lajitong" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bwinterfer_ip_add05"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="IP06"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_ed06"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="1"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Button
+            android:id="@+id/bwinterfer_ipbtndele05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_15PX"
+            android:background="@drawable/lajitong" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bwinterfer_ipbtn"
+        android:layout_width="@dimen/DIMEN_240PX"
+        android:layout_height="@dimen/DIMEN_70PX"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:background="@drawable/save_btn_selector" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inter_kekao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="可靠的IP个数"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_ipcount"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inter_meizu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="每组次数"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_group_count"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inter_timeout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="超时时间"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_time_out"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inter_timeduring"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="时间间隔"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_time_space"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inter_linestop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="断网判断次数"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_notnet_num"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inter_connline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="联网判定次数"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwinterfer_net_num"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/DIMEN_20PX"
+        android:layout_marginLeft="@dimen/DIMEN_100PX"
+        android:layout_marginRight="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_40PX"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bwinterfer_dianji_dele"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_marginRight="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/jiekou_shanchu_layout" />
+
+        <Button
+            android:id="@+id/bwinterfer_dianji_set"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_marginLeft="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/jiekou_baocun_layout" />
+    </LinearLayout>
+
+
+</LinearLayout>

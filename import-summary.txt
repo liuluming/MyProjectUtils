@@ -1,0 +1,213 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From InitActivity:
+* README.md
+* build.gradle
+* proguard-project.txt
+From Synertone:
+* jni\
+* jni\H264toAvi\
+* jni\H264toAvi\Android.mk
+* jni\H264toAvi\gos_avi_global.h
+* jni\H264toAvi\gos_avi_write.h
+* jni\H264toAvi\gos_aviwrite.cpp
+* jni\cloudclientsdk\
+* jni\cloudclientsdk\cloudclientsdk.cpp
+* jni\h264decoder\
+* jni\h264decoder\.cproject
+* jni\h264decoder\.project
+* jni\h264decoder\Android.mk
+* jni\h264decoder\h264.c
+* jni\h264decoder\h264.h
+* jni\h264decoder\jni.c
+* jni\h264decoder\jniUtils.h
+* jni\h264decoder\mp4.c
+* jni\h264decoder\mp4_save-liumy.c
+* jni\h264decoder\onLoad.cpp
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+* sdk.xml
+From pullToRefreshLibrary:
+* ic_launcher-web.png
+* proguard-project.txt
+From ripplelayout-master:
+* .gitignore
+* LICENSE
+* README.md
+* ic_launcher-web.png
+* proguard-project.txt
+From slidingmenu_library:
+* LICENSE.txt
+* library.iml
+* pom.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:20.0.0
+gson-2.1.jar => com.google.code.gson:gson:2.1
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.1.jar => version 2.1 in com.google.code.gson:gson:2.1
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+actionbarsherlock =>
+    com.actionbarsherlock:actionbarsherlock:4.4.0@aar
+    com.android.support:support-v4:20.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In InitActivity:
+* AndroidManifest.xml => initActivity\src\main\AndroidManifest.xml
+* assets\ => initActivity\src\main\assets
+* lint.xml => initActivity\lint.xml
+* res\ => initActivity\src\main\res\
+* src\ => initActivity\src\main\java\
+In pullToRefreshLibrary:
+* AndroidManifest.xml => pullToRefreshLibrary\src\main\AndroidManifest.xml
+* assets\ => pullToRefreshLibrary\src\main\assets
+* res\ => pullToRefreshLibrary\src\main\res\
+* src\ => pullToRefreshLibrary\src\main\java\
+In ripplelayout-master:
+* AndroidManifest.xml => ripplelayoutmaster\src\main\AndroidManifest.xml
+* assets\ => ripplelayoutmaster\src\main\assets
+* libs\nineoldandroids-2.4.0.jar => ripplelayoutmaster\libs\nineoldandroids-2.4.0.jar
+* res\ => ripplelayoutmaster\src\main\res\
+* src\ => ripplelayoutmaster\src\main\java\
+In slidingmenu_library:
+* AndroidManifest.xml => slidingmenu_library\src\main\AndroidManifest.xml
+* assets\ => slidingmenu_library\src\main\assets
+* res\ => slidingmenu_library\src\main\res\
+* src\ => slidingmenu_library\src\main\java\
+In Synertone:
+* AndroidManifest.xml => synertone\src\main\AndroidManifest.xml
+* ASimpleCache\ => synertone\src\main\java\
+* ASimpleCache\com\my51see\see\ITelephony.aidl => synertone\src\main\aidl\com\my51see\see\ITelephony.aidl
+* assets\ => synertone\src\main\assets\
+* libs\aacdecoder-android-0.6.1.jar => synertone\libs\aacdecoder-android-0.6.1.jar
+* libs\achartengine-1.1.0.jar => synertone\libs\achartengine-1.1.0.jar
+* libs\android-support-v13.jar => synertone\libs\android-support-v13.jar
+* libs\armeabi-v7a\libaac-encoder.so => synertone\src\main\jniLibs\armeabi-v7a\libaac-encoder.so
+* libs\armeabi-v7a\libaacdecoder.so => synertone\src\main\jniLibs\armeabi-v7a\libaacdecoder.so
+* libs\armeabi-v7a\libArm7VideoDecoder.so => synertone\src\main\jniLibs\armeabi-v7a\libArm7VideoDecoder.so
+* libs\armeabi-v7a\libBaiduMapSDK_base_v3_6_1.so => synertone\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_base_v3_6_1.so
+* libs\armeabi-v7a\libBaiduMapSDK_cloud_v3_6_1.so => synertone\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_cloud_v3_6_1.so
+* libs\armeabi-v7a\libBaiduMapSDK_map_v3_6_1.so => synertone\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_map_v3_6_1.so
+* libs\armeabi-v7a\libBaiduMapSDK_radar_v3_6_1.so => synertone\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_radar_v3_6_1.so
+* libs\armeabi-v7a\libBaiduMapSDK_search_v3_6_1.so => synertone\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_search_v3_6_1.so
+* libs\armeabi-v7a\libBaiduMapSDK_util_v3_6_1.so => synertone\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_util_v3_6_1.so
+* libs\armeabi-v7a\libbitherjni.so => synertone\src\main\jniLibs\armeabi-v7a\libbitherjni.so
+* libs\armeabi-v7a\libcloudclientsdk.so => synertone\src\main\jniLibs\armeabi-v7a\libcloudclientsdk.so
+* libs\armeabi-v7a\libcrypto.so => synertone\src\main\jniLibs\armeabi-v7a\libcrypto.so
+* libs\armeabi-v7a\libelianjni.so => synertone\src\main\jniLibs\armeabi-v7a\libelianjni.so
+* libs\armeabi-v7a\libffmpeg.so => synertone\src\main\jniLibs\armeabi-v7a\libffmpeg.so
+* libs\armeabi-v7a\libH264Decoder.so => synertone\src\main\jniLibs\armeabi-v7a\libH264Decoder.so
+* libs\armeabi-v7a\libH264Encoder.so => synertone\src\main\jniLibs\armeabi-v7a\libH264Encoder.so
+* libs\armeabi-v7a\libjpegbither.so => synertone\src\main\jniLibs\armeabi-v7a\libjpegbither.so
+* libs\armeabi-v7a\liblocSDK6a.so => synertone\src\main\jniLibs\armeabi-v7a\liblocSDK6a.so
+* libs\armeabi-v7a\libOMX.11.so => synertone\src\main\jniLibs\armeabi-v7a\libOMX.11.so
+* libs\armeabi-v7a\libOMX.14.so => synertone\src\main\jniLibs\armeabi-v7a\libOMX.14.so
+* libs\armeabi-v7a\libOMX.18.so => synertone\src\main\jniLibs\armeabi-v7a\libOMX.18.so
+* libs\armeabi-v7a\libOMX.9.so => synertone\src\main\jniLibs\armeabi-v7a\libOMX.9.so
+* libs\armeabi-v7a\libOpenSLES.so => synertone\src\main\jniLibs\armeabi-v7a\libOpenSLES.so
+* libs\armeabi-v7a\libpack.so => synertone\src\main\jniLibs\armeabi-v7a\libpack.so
+* libs\armeabi-v7a\libstlport_shared.so => synertone\src\main\jniLibs\armeabi-v7a\libstlport_shared.so
+* libs\armeabi-v7a\libUGo.so => synertone\src\main\jniLibs\armeabi-v7a\libUGo.so
+* libs\armeabi-v7a\libvao.0.so => synertone\src\main\jniLibs\armeabi-v7a\libvao.0.so
+* libs\armeabi-v7a\libvinit.so => synertone\src\main\jniLibs\armeabi-v7a\libvinit.so
+* libs\armeabi-v7a\libVoAACEncoder.so => synertone\src\main\jniLibs\armeabi-v7a\libVoAACEncoder.so
+* libs\armeabi-v7a\libvplayer.so => synertone\src\main\jniLibs\armeabi-v7a\libvplayer.so
+* libs\armeabi-v7a\libvscanner.so => synertone\src\main\jniLibs\armeabi-v7a\libvscanner.so
+* libs\armeabi-v7a\libvvo.0.so => synertone\src\main\jniLibs\armeabi-v7a\libvvo.0.so
+* libs\armeabi-v7a\libvvo.7.so => synertone\src\main\jniLibs\armeabi-v7a\libvvo.7.so
+* libs\armeabi-v7a\libvvo.8.so => synertone\src\main\jniLibs\armeabi-v7a\libvvo.8.so
+* libs\armeabi-v7a\libvvo.9.so => synertone\src\main\jniLibs\armeabi-v7a\libvvo.9.so
+* libs\armeabi-v7a\libvvo.j.so => synertone\src\main\jniLibs\armeabi-v7a\libvvo.j.so
+* libs\baidumapapi_base_v3_6_1.jar => synertone\libs\baidumapapi_base_v3_6_1.jar
+* libs\baidumapapi_cloud_v3_6_1.jar => synertone\libs\baidumapapi_cloud_v3_6_1.jar
+* libs\baidumapapi_map_v3_6_1.jar => synertone\libs\baidumapapi_map_v3_6_1.jar
+* libs\baidumapapi_radar_v3_6_1.jar => synertone\libs\baidumapapi_radar_v3_6_1.jar
+* libs\baidumapapi_search_v3_6_1.jar => synertone\libs\baidumapapi_search_v3_6_1.jar
+* libs\baidumapapi_util_v3_6_1.jar => synertone\libs\baidumapapi_util_v3_6_1.jar
+* libs\bugly_1.2.7_release.jar => synertone\libs\bugly_1.2.7_release.jar
+* libs\edit_lib.jar => synertone\libs\edit_lib.jar
+* libs\ForwardingDevelopmentTools_ver_1.0_release.jar => synertone\libs\ForwardingDevelopmentTools_ver_1.0_release.jar
+* libs\lib51see.jar => synertone\libs\lib51see.jar
+* libs\litepal-1.5.1.jar => synertone\libs\litepal-1.5.1.jar
+* libs\locSDK_6.13.jar => synertone\libs\locSDK_6.13.jar
+* libs\uk.jar => synertone\libs\uk.jar
+* libs\voaacencoder.jar => synertone\libs\voaacencoder.jar
+* libs\volley.jar => synertone\libs\volley.jar
+* libs\xUtils-2.6.14.jar => synertone\libs\xUtils-2.6.14.jar
+* libs\yunzhixun_IM_SDK_ver_3.0.4.5_release.jar => synertone\libs\yunzhixun_IM_SDK_ver_3.0.4.5_release.jar
+* libs\yunzhixun_tcp_SDK_ver_3.0.5.3_release.jar => synertone\libs\yunzhixun_tcp_SDK_ver_3.0.5.3_release.jar
+* libs\yunzhixun_video_SDK_v2.0.1.3_release.jar => synertone\libs\yunzhixun_video_SDK_v2.0.1.3_release.jar
+* libs\zxing.jar => synertone\libs\zxing.jar
+* lint.xml => synertone\lint.xml
+* proguard-project.txt => synertone\proguard-project.txt
+* res\ => synertone\src\main\res\
+* src\ => synertone\src\main\java\
+* src\com\baidu\mapapi\overlayutil\package.html => synertone\src\main\resources\com\baidu\mapapi\overlayutil\package.html
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

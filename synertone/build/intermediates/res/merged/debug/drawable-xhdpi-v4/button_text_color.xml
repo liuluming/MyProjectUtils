@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#DDd4d4d4" android:state_pressed="true" />
+    <item android:color="@color/radio_button_selected_color" android:state_checked="false" android:state_pressed="false" />
+    <item android:color="#fff2f2f2" android:state_checked="true" android:state_pressed="false" />
+</selector>

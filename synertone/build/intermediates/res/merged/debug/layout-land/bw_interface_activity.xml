@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/bwinterfer_top"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/titlebgcolor">
+
+        <ImageButton
+            android:id="@+id/bwinterfer_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/running_nav_icon_back"
+            android:onClick="bwInterferOnFinish" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/DIMEN_35PX"
+            android:layout_toRightOf="@id/bwinterfer_finish"
+            android:text="接口"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+
+        <!--    <com.my51c.see51.app.view.RoundView
+               android:id="@+id/bwinterfer_round"
+               android:layout_width="0dp"
+               android:layout_height="0dp" />-->
+
+        <Button
+            android:layout_width="@dimen/DIMEN_80PX"
+            android:layout_height="@dimen/DIMEN_80PX"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:background="@drawable/add_item"
+            android:onClick="bwAddRow" />
+    </RelativeLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/bwinterfer_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bwinterfer_top" />
+</RelativeLayout>

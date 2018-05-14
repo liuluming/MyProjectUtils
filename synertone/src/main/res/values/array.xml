@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="network_firstchoose">
+        <item>宽带优先</item>
+        <item>资费优先</item>
+    </string-array>
+    <string-array name="tianxian_style">
+        <item>S(两轴)</item>
+        <item>S(三轴)</item>
+        <item>@string/v_style</item>
+        <item>@string/n_style</item>
+        <item>@string/c_style</item>
+        <item>P(手动)</item>
+        <item>P(自动)</item>
+    </string-array>
+    <string-array name="advpar_locatemode">
+        <item>手动</item>
+        <item>GPS</item>
+        <item>北斗</item>
+    </string-array>
+    <string-array name="onestart_spinner">
+        <item>协同一号</item>
+        <item>亚洲七号</item>
+        <!--   <item>鑫诺五号</item> -->
+    </string-array>
+    <string-array name="system_update_motion">
+        <item>本地</item>
+        <item>远程</item>
+    </string-array>
+    <string-array name="system_update_server">
+        <item>服务器1</item>
+        <item>服务器2</item>
+        <item>服务器3</item>
+        <item>服务器4</item>
+    </string-array>
+    <string-array name="ref_bandwidth">
+        <item>25K</item>
+        <item>50K</item>
+        <item>100K</item>
+        <item>200K</item>
+        <item>400K</item>
+        <item>800K</item>
+        <item>1.6M</item>
+        <item>2M</item>
+        <item>4M</item>
+        <item>5M</item>
+        <item>6M</item>
+        <item>7M</item>
+        <item>8M</item>
+        <item>9M</item>
+        <item>10M</item>
+    </string-array>
+    <string-array name="vsat_mode">
+        <item>信标</item>
+        <item>载波</item>
+        <item>DVB</item>
+    </string-array>
+    <string-array name="receive_polarization">
+        <item>垂直</item>
+        <item>水平</item>
+    </string-array>
+    <string-array name="ref_modulator">
+        <item>Gilat</item>
+        <item>Comtech</item>
+        <item>IPStar</item>
+        <item>pirect</item>
+        <item>Agilis</item>
+        <item>Viasat</item>
+        <item>Redyne</item>
+        <item>Hughes</item>
+        <item>Paradise</item>
+        <item>Datum</item>
+    </string-array>
+    <string-array name="wan_protocol">
+        <item>静态地址</item>
+        <item>DHCP</item>
+        <item>pppoe</item>
+        <item>UMTS/GPRS/EV-DO</item>
+    </string-array>
+    <string-array name="wifisert_password_way">
+        <item>无加密</item>
+        <item>WAP2</item>
+        <item>混合加密</item>
+    </string-array>
+    <string-array name="wifiset_signal_strength">
+        <item>弱</item>
+        <item>一般</item>
+        <item>穿墙</item>
+    </string-array>
+    <string-array name="webaut_old_time">
+        <item>0.25h</item>
+        <item>0.5h</item>
+        <item>1h</item>
+        <item>2h</item>
+        <item>5h</item>
+        <item>24h</item>
+        <item>48h</item>
+    </string-array>
+    <string-array name="webaut_servicer">
+        <item>服务器1</item>
+        <item>服务器2</item>
+        <item>服务器3</item>
+    </string-array>
+    <string-array name="super_bw_plan">
+        <item>均衡</item>
+        <item>不可达到</item>
+        <item>丢弃</item>
+    </string-array>
+    <string-array name="networkopt_bwmanger">
+        <item>带宽平均</item>
+        <item>网页优先</item>
+        <item>下载优先</item>
+    </string-array>
+    <string-array name="opt_ji">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="bw_plan_end">
+        <item>默认（允许）</item>
+        <item>目标不可达</item>
+        <item>丢弃</item>
+    </string-array>
+    <string-array name="wifiset_24_channel">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="wanset_wannum">
+        <item>WAN1</item>
+        <item>WAN2</item>
+        <item>WAN3</item>
+        <item>WAN4</item>
+        <item>WAN5</item>
+    </string-array>
+    <string-array name="bwproject_protocol">
+        <item>all</item>
+        <item>tcp</item>
+        <item>udp</item>
+        <item>icmp</item>
+    </string-array>
+    <string-array name="e_w">
+        <item>East</item>
+        <item>West</item>
+    </string-array>
+    <string-array name="n_s">
+        <item>North</item>
+        <item>South</item>
+    </string-array>
+    <string-array name="n_jh">
+        <item>"--"</item>
+        <item>0°顺转</item>
+        <item>0°逆转</item>
+    </string-array>
+    <string-array name="n_fw">
+        <item>"--"</item>
+        <item>正南偏东</item>
+        <item>正南偏西</item>
+    </string-array>
+    <string-array name="n_fy">
+        <item>"--"</item>
+        <item>水平面向上</item>
+        <item>水平面向下</item>
+    </string-array>
+    <string-array name="lub_mode">
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11300</item>
+    </string-array>
+    <string-array name="deviceType">
+        <item>所有设备</item>
+        <item>智能网关</item>
+        <item>天线体</item>
+        <item>增值业务</item>
+    </string-array>
+    <string-array name="channel_mode">
+        <item>网络适配器1</item>
+        <item>网络适配器2</item>
+        <item>网络适配器3</item>
+    </string-array>
+    <string-array name="aggregate_mode">
+        <item>广播</item>
+        <item>叠加</item>
+        <item>主备</item>
+    </string-array>
+    <string-array name="service_mode">
+        <item>聚合链路</item>
+        <item>网络适配器</item>
+    </string-array>
+    <string-array name="protocol_mode">
+        <item>TCP</item>
+        <item>UDP</item>
+    </string-array>
+    <string-array name="net_protocol_mode">
+        <item>@string/DHCP</item>
+        <item>@string/STATIC_IP</item>
+        <item>@string/PPPOE</item>
+    </string-array>
+</resources>

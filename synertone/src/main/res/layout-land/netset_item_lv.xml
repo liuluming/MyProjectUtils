@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/DIMEN_100PX"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ns_wifiname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:fontFamily="@string/myfont"
+            android:text="Wi-Fi ①"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <TextView
+            android:id="@+id/ns_wifijiamiway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:fontFamily="@string/myfont"
+            android:text="通过WAP2进行加密"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_20PX" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ns_wifiimage"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_weight="1"
+        android:background="@drawable/netset_wifi4" />
+
+</LinearLayout>

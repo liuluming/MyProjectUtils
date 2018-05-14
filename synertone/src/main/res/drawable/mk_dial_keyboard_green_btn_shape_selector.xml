@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/mk_dial_keyboard_green_btn_shape_bg_selected" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/mk_dial_keyboard_green_btn_shape_bg_selected" android:state_focused="true"></item>
+    <item android:drawable="@drawable/mk_dial_keyboard_green_btn_shape_bg_normal"></item>
+
+</selector><!-- From: file:/E:/androidworkspace_as/sdk_v4_914/mksdk/MKApplication/MKKeyboard/src/main/res/drawable/mk_dial_keyboard_green_btn_shape_selector.xml -->

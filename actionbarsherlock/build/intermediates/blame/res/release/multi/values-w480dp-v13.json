@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\res\\values-w480dp\\abs__bools.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 679,
+                        "endColumn": 55,
+                        "endOffset": 730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 111,
+                    "endColumn": 72,
+                    "endOffset": 179
+                },
+                "from": {
+                    "file": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\res\\values-w480dp\\abs__config.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1038,
+                        "endColumn": 72,
+                        "endOffset": 1106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 184,
+                    "endColumn": 61,
+                    "endOffset": 241
+                },
+                "from": {
+                    "file": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\res\\values-w480dp\\abs__bools.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 735,
+                        "endColumn": 61,
+                        "endOffset": 792
+                    }
+                }
+            }
+        ]
+    }
+]

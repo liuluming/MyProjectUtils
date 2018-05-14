@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58.299995dip"
+        android:background="@color/header_bar_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip">
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="选择摄像机要连接的wifi"
+            android:textColor="@color/white"
+            android:textSize="19.29999dip" />
+
+        <ImageView
+            android:id="@+id/btnrefreshwifi"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_refresh_wifi"
+
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        android:background="#d3d3d3"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/refreshwaitview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"></ProgressBar>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10.0dip"
+                android:gravity="center"
+                android:text="请稍等"></TextView>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/wifilist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/listviewdivider"
+            android:dividerHeight="0.5dip"
+            android:visibility="gone"></ListView>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        android:background="@color/listviewdivider"></View>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="58.299995dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_whitewifi_style"
+        android:text="取消"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+</LinearLayout>

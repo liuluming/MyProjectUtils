@@ -1,0 +1,854 @@
+[
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\lv_header1.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\lv_header1.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\switch_on.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\switch_on.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shap_login_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\shap_login_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__spinner_ab_pressed_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__spinner_ab_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\n.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\n.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\back_compass.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\back_compass.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__progress_primary_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__progress_primary_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shap_trans_stork.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\shap_trans_stork.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_5.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_5.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\number_2.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\number_2.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\play_acy_pause.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\play_acy_pause.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__progress_bg_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__progress_bg_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__cab_background_top_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__cab_background_top_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__textfield_search_right_default_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__textfield_search_right_default_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\back_img_shap.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\back_img_shap.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\pullToRefreshLibrary\\unspecified\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_stacked_transparent_dark_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_stacked_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__spinner_ab_disabled_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__spinner_ab_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\toast_bac.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\toast_bac.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_refresh.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\btn_refresh.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_stacked_transparent_light_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_stacked_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_solid_shadow_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_solid_shadow_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\number_0.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\number_0.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shap_listview_linearlayout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\shap_listview_linearlayout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_paste.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_paste.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__spinner_ab_focused_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__spinner_ab_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\in_call.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\in_call.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__btn_cab_done_default_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__btn_cab_done_default_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shap_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\shap_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__textfield_search_right_default_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__textfield_search_right_default_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_commit_search_api_holo_dark.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_commit_search_api_holo_dark.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shap_map_btn.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\shap_map_btn.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_3.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_3.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\video_monitor_frame.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\video_monitor_frame.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_repeat.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\message_repeat.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_transparent_dark_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\radio_checked.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\radio_checked.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bottom_message.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\bottom_message.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scrubber_primary_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\initActivity\\unspecified\\res\\drawable-xhdpi-v4\\scrubber_primary_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__list_pressed_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\play_acy_play.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\play_acy_play.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\pullToRefreshLibrary\\unspecified\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_solid_light_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_solid_light_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__list_longpressed_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_voice_search_api_holo_light.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_voice_search_api_holo_light.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\compass.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\compass.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_ab_back_holo_light.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_ab_back_holo_light.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_7.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_7.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_1.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_1.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__list_pressed_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__menu_dropdown_panel_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__menu_dropdown_panel_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_bottom_transparent_light_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_bottom_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__cab_background_bottom_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__cab_background_bottom_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\number_4.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\number_4.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_stacked_solid_light_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_stacked_solid_light_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_clear_search_api_disabled_holo_light.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_clear_search_api_disabled_holo_light.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_menu_moreoverflow_normal_holo_dark.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_menu_moreoverflow_normal_holo_dark.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_text_color.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\button_text_color.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_6.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_6.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\come_btn.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\come_btn.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\set_nav_bg.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\set_nav_bg.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\s.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\s.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\local_info_video_x2.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\local_info_video_x2.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__tab_selected_focused_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__spinner_ab_default_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__spinner_ab_default_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\addrf_shap.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\addrf_shap.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\show_pass_shap_yes.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\show_pass_shap_yes.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_clear_disabled.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_clear_disabled.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_menu_share_holo_light.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\pullToRefreshLibrary\\unspecified\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_transparent_light_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_del.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_del.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\edittext_shap.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\edittext_shap.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\add_item.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\add_item.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\number_8.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\number_8.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\degree.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\degree.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_8.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_8.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bottom_setting_down.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\bottom_setting_down.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_3.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_3.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\out_call.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\out_call.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__spinner_ab_pressed_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__spinner_ab_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__spinner_48_inner_holo.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__spinner_48_inner_holo.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__textfield_search_default_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__textfield_search_default_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\w_cn.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\w_cn.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scrubber_control_normal_holo.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\initActivity\\unspecified\\res\\drawable-xhdpi-v4\\scrubber_control_normal_holo.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scrubber_control_disabled_holo.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\initActivity\\unspecified\\res\\drawable-xhdpi-v4\\scrubber_control_disabled_holo.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_8.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_8.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\local_info_advanced_x2.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\local_info_advanced_x2.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_2.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_2.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\number_9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\number_9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\running_bg.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\running_bg.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_search.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_search.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_menu_moreoverflow_normal_holo_light.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tel_content.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\tel_content.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_7.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_7.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\app_icon.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ios7_switch_on.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\ios7_switch_on.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\play_acy_previous.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\play_acy_previous.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\onestart_set_default_select.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\onestart_set_default_select.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_stacked_solid_dark_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_stacked_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_menu_share_holo_dark.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_menu_share_holo_dark.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_bottom_solid_light_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_bottom_solid_light_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_1.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_1.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__btn_cab_done_focused_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__btn_cab_done_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scrubber_secondary_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\initActivity\\unspecified\\res\\drawable-xhdpi-v4\\scrubber_secondary_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sprinner.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\sprinner.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\radio_unchecked.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\radio_unchecked.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_0.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_0.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_6.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_6.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__list_divider_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__list_divider_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__list_focused_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__spinner_ab_disabled_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__spinner_ab_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\sorlistview_show_head_toast_bg.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\sorlistview_show_head_toast_bg.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__textfield_search_right_selected_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__textfield_search_right_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_go.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_go.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__list_selector_disabled_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\param_nav_motion_x2.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\param_nav_motion_x2.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_share_pack_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\onestart_set_default_not_select.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\onestart_set_default_not_select.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__btn_cab_done_focused_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__btn_cab_done_focused_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\number_3.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\number_3.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__tab_selected_pressed_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\switch_off.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\switch_off.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\s_cn.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\s_cn.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_2.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_2.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__textfield_search_right_selected_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__textfield_search_right_selected_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__list_divider_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__list_divider_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__textfield_search_selected_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__textfield_search_selected_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bottom_contact_down.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\bottom_contact_down.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shap_linearlayout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\shap_linearlayout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\level.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\level.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\voip_dial_not_select.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\voip_dial_not_select.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_bottom_solid_inverse_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_bottom_solid_inverse_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_arrow.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\ic_arrow.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_shap.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\button_shap.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_del.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_del.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\blpclose_shap.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\blpclose_shap.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bottom_message_down.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\bottom_message_down.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_ab_back_holo_dark.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_clear_search_api_holo_light.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_clear_search_api_holo_light.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\n_cn.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\n_cn.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_cab_done_holo_light.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_cab_done_holo_light.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\local_info_wireless_x2.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\local_info_wireless_x2.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__progress_secondary_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__progress_secondary_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__textfield_search_default_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__textfield_search_default_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_shap.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\search_shap.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__progress_primary_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__progress_primary_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\iconfont_wifi_norm.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\iconfont_wifi_norm.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_4.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_4.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\in_mis_call.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\in_mis_call.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shap_white_listview_linearlayout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\shap_white_listview_linearlayout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_solid_dark_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\run_main_area_icon_back.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\run_main_area_icon_back.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scrubber_control_pressed_holo.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\initActivity\\unspecified\\res\\drawable-xhdpi-v4\\scrubber_control_pressed_holo.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shap_listview_white.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\shap_listview_white.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\local_info_wired_x2.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\local_info_wired_x2.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__cab_background_bottom_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__cab_background_bottom_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\number_1.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\number_1.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\play_acy_next.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\play_acy_next.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_bottom_solid_dark_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_bottom_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\e_cn.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\e_cn.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\number_7.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\number_7.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__spinner_ab_default_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__spinner_ab_default_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__tab_selected_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\number_6.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\number_6.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\voip_dial_select.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\voip_dial_select.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\player_setting_bright_progressbar.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\player_setting_bright_progressbar.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__tab_unselected_pressed_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bottom_contact.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\bottom_contact.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\person.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\person.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__spinner_48_outer_holo.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__spinner_48_outer_holo.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__progress_bg_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__progress_bg_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__menu_dropdown_panel_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__menu_dropdown_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__list_activated_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__list_activated_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_search.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\number_5.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\number_5.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__progress_secondary_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__progress_secondary_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__textfield_search_selected_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__textfield_search_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_share_pack_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bottom_setting.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\bottom_setting.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_5.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_5.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_voice_search.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_voice_search.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shap_menu_linearlayout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\shap_menu_linearlayout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\video_monitor_nav_bg.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\video_monitor_nav_bg.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__btn_cab_done_pressed_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__btn_cab_done_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_paste.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_paste.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_select_0.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_select_0.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__toast_frame.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__toast_frame.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shap_white_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\shap_white_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\e.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\e.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scrubber_control_focused_holo.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\initActivity\\unspecified\\res\\drawable-xhdpi-v4\\scrubber_control_focused_holo.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__btn_cab_done_default_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__btn_cab_done_default_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\refresh.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\refresh.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\background_compass.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\background_compass.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\show_pass_shap_nor.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\show_pass_shap_nor.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_commit_search_api_holo_light.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_commit_search_api_holo_light.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ab_bottom_transparent_dark_holo.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ab_bottom_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_go_search_api_holo_light.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_go_search_api_holo_light.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shap_changepsw_edit.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\shap_changepsw_edit.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__cab_background_top_holo_dark.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__cab_background_top_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ios7_switch_off.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\ios7_switch_off.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__spinner_ab_focused_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__spinner_ab_focused_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\back_shap.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\back_shap.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mk_dial_keyboard_num_4.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\mk_dial_keyboard_num_4.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_search_api_holo_light.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_search_api_holo_light.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__btn_cab_done_pressed_holo_light.9.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__btn_cab_done_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\w.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\w.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abs__ic_cab_done_holo_dark.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\actionbarsherlock\\unspecified\\res\\drawable-xhdpi-v4\\abs__ic_cab_done_holo_dark.png"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\add_new_camera.png",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\drawable-xhdpi\\add_new_camera.png"
+    }
+]

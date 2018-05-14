@@ -1,0 +1,5 @@
+include ':initActivity', ':viewbguilib', ':nicedialog', ':actionbarsherlock'
+include ':pullToRefreshLibrary'
+include ':ripplelayoutmaster'
+include ':slidingmenu_library'
+include ':synertone'

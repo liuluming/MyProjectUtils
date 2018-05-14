@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/view_compass"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/background_compass"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/layout_direction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/direction_margin_top"
+                android:orientation="horizontal"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_direction_size" />
+
+            <com.my51c.see51.app.view.CompassView
+                android:id="@+id/compass_pointer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/compass_margin_top"
+                android:src="@drawable/compass" />
+
+            <LinearLayout
+                android:id="@+id/layout_angle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginTop="@dimen/degree_text_margin_top"
+                android:orientation="horizontal" />
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>

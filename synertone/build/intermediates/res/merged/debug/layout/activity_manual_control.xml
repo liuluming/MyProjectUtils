@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#90A4AE">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/running_statu_icon_back" />
+
+        <TextView
+            android:id="@+id/super_reftv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/imageButton1"
+            android:fontFamily="@string/myfont"
+            android:text="参数设置"
+            android:textColor="@color/white"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_80PX"
+                android:background="#E0E0E0">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="@dimen/DIMEN_15PX"
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center_vertical"
+                    android:text="GPS定位"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dangqiaojin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="当前经度"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <Spinner
+                    android:id="@+id/super_ref_mdqjd"
+                    android:layout_width="@dimen/DIMEN_180PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:background="@drawable/superset_tianchong"
+                    android:entries="@array/onestart_spinner"
+                    android:spinnerMode="dropdown"
+
+                    />
+
+                <TextView
+                    android:id="@+id/dangqiaojindu_tv"
+                    android:layout_width="@dimen/DIMEN_180PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:background="@drawable/superset_kongbai"
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="--"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dangqianweidu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="当前纬度"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <Spinner
+                    android:id="@+id/super_ref_mdqwd"
+                    android:layout_width="@dimen/DIMEN_180PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:background="@drawable/superset_tianchong"
+                    android:entries="@array/onestart_spinner"
+                    android:spinnerMode="dropdown"
+
+                    />
+
+                <TextView
+                    android:id="@+id/dangqianweidu_tv"
+                    android:layout_width="@dimen/DIMEN_180PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:background="@drawable/superset_kongbai"
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="--"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_80PX"
+                android:background="#E0E0E0"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/bianhao_weixing"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_weight="8"
+                    android:fontFamily="@string/myfont"
+                    android:text="卫星编号"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/super_ref_numner"
+                    android:layout_width="@dimen/DIMEN_144PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_20PX"
+                    android:layout_weight="1"
+                    android:background="@drawable/superset_spinner"
+                    android:entries="@array/onestart_spinner"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/debug_btn"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/DIMEN_20PX"
+                    android:layout_marginTop="@dimen/DIMEN_20PX"
+                    android:background="@drawable/tianchong_grey"
+                    android:fontFamily="@string/myfont"
+                    android:text="启动"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_100PX"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/mubiaojihua"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="1"
+                        android:fontFamily="@string/myfont"
+                        android:text="目标极化角"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <Spinner
+                        android:id="@+id/sp_mbjh"
+                        android:layout_width="@dimen/DIMEN_180PX"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:background="@drawable/superset_tianchong"
+                        android:entries="@array/onestart_spinner"
+                        android:spinnerMode="dropdown"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/mubiaojihua_tv"
+                        android:layout_width="@dimen/DIMEN_180PX"
+                        android:layout_height="@dimen/DIMEN_70PX"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:background="@drawable/superset_kongbai"
+                        android:fontFamily="@string/myfont"
+                        android:gravity="center"
+                        android:maxLength="6"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="--"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_1PX"
+                    android:background="#CFCFCF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_100PX"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/mubiaofangwei"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="1"
+                        android:fontFamily="@string/myfont"
+                        android:text="目标方位角"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <Spinner
+                        android:id="@+id/sp_fwmb"
+                        android:layout_width="@dimen/DIMEN_180PX"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:background="@drawable/superset_tianchong"
+                        android:entries="@array/onestart_spinner"
+                        android:spinnerMode="dropdown"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/mubiaofangwei_tv"
+                        android:layout_width="@dimen/DIMEN_180PX"
+                        android:layout_height="@dimen/DIMEN_70PX"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:background="@drawable/superset_kongbai"
+                        android:fontFamily="@string/myfont"
+                        android:gravity="center"
+                        android:maxLength="6"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="--"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_1PX"
+                    android:background="#CFCFCF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_100PX"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/mubiaofuyang"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="1"
+                        android:fontFamily="@string/myfont"
+                        android:text="目标俯仰角"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <Spinner
+                        android:id="@+id/sp_mbfy"
+                        android:layout_width="@dimen/DIMEN_180PX"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:background="@drawable/superset_tianchong"
+                        android:entries="@array/onestart_spinner"
+                        android:spinnerMode="dropdown"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/mubiaofuyang_tv"
+                        android:layout_width="@dimen/DIMEN_180PX"
+                        android:layout_height="@dimen/DIMEN_70PX"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:background="@drawable/superset_kongbai"
+                        android:fontFamily="@string/myfont"
+                        android:gravity="center"
+                        android:maxLength="6"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="--"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:id="@+id/ll_compass"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_80PX"
+                android:background="#E0E0E0"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_compass"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_weight="8"
+                    android:fontFamily="@string/myfont"
+                    android:text="罗盘"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_compass"
+                    android:rotation="180" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_80PX"
+                android:layout_marginTop="20dp"
+                android:background="#E0E0E0"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/receice_level"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_weight="2.1"
+                    android:fontFamily="@string/myfont"
+                    android:text="接收电平值"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/pb_progressbar"
+                    style="@style/StyleProgressBarMini"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@drawable/shape_progressbar_bg"
+                    android:max="100"
+                    android:progress="0" />
+
+                <TextView
+                    android:id="@+id/tv_receive_level"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="2"
+                    android:fontFamily="@string/myfont"
+                    android:text="0 dB"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_28PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_80PX"
+                android:background="#E0E0E0"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/capability"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_weight="2.1"
+                    android:fontFamily="@string/myfont"
+                    android:text="发射电平值"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/pb_progressbar1"
+                    style="@style/StyleProgressBarMini"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:background="@drawable/shape_progressbar_bg"
+                    android:max="100"
+                    android:progress="0" />
+
+                <TextView
+                    android:id="@+id/tv_capability"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="2"
+                    android:fontFamily="@string/myfont"
+                    android:text="0 dB"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_28PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

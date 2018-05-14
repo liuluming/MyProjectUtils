@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout3GInternet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/qianhui"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                style="@style/style0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="right"
+                android:text="@string/username"
+                android:textColor="@color/text_color"></TextView>
+
+            <EditText
+                android:id="@+id/edt3GUser"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/shap_trans_stork"
+                android:inputType="none"
+                android:paddingLeft="20dp"
+                android:textColor="@color/qianhei" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/style0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="right"
+                android:text="@string/password"
+                android:textColor="@color/text_color"></TextView>
+
+            <EditText
+                android:id="@+id/edt3Gpasswd"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/shap_trans_stork"
+                android:inputType="none"
+                android:paddingLeft="20dp"
+                android:textColor="@color/qianhei" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/style0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="right"
+                android:text="@string/apn3g"
+                android:textColor="@color/text_color"></TextView>
+
+            <EditText
+                android:id="@+id/edt3Gapn"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/shap_trans_stork"
+                android:inputType="none"
+                android:paddingLeft="20dp"
+                android:textColor="@color/qianhei" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/style0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="right"
+                android:text="@string/phonenum3g"
+                android:textColor="@color/text_color"></TextView>
+
+            <EditText
+                android:id="@+id/edt3Gphone"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/shap_trans_stork"
+                android:inputType="none"
+                android:paddingLeft="20dp"
+                android:textColor="@color/qianhei" />
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:id="@+id/setLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar3GWait"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txtSet3GResult"
+            style="@style/textFont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/blue" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnSet3GOK"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_shap"
+        android:text="@string/next"
+        android:textColor="@color/white" />
+
+    <!--  <TextView
+         style="@style/style0"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="35dp"
+         android:layout_marginTop="30dp"
+         android:text="@string/Inst01"
+         android:textColor="@color/black" />
+
+     <TextView
+           style="@style/style0"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="35dp"
+         android:text="@string/Inst02"
+         android:textColor="@color/black" />
+
+     <TextView
+         android:id="@+id/CameraId"
+         style="@style/style0"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="35dp"
+         android:text="@string/Inst03"
+         android:textColor="@color/black" />
+
+     <ImageView
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="35dp"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/device_photo" />
+
+     <Button
+         android:id="@+id/btn3gNext"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/btn_down_style"
+         android:text="@string/next" /> -->
+
+</LinearLayout>

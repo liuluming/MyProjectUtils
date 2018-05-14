@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.my51c.see51.app.activity.OneStartActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX"
+        android:background="#135c91">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/running_nav_icon_back"
+            android:onClick="oneStartOnFinish" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageButton1"
+            android:text="智能对星"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:text="卫星编号"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <Spinner
+                    android:id="@+id/one_statrt_satellite_number"
+                    android:layout_width="@dimen/DIMEN_100PX"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:background="@drawable/sprinner"
+                    android:entries="@array/onestart_spinner"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:text="经度"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/one_start_satelon"
+                    android:layout_width="@dimen/DIMEN_120PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:gravity="center"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:text="对星方式"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/one_start_mode"
+                    android:layout_width="@dimen/DIMEN_120PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:gravity="center"
+                    android:text="信标"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:text="频率"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/one_start_freq"
+                    android:layout_width="@dimen/DIMEN_120PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:gravity="center"
+                    android:text="1156.58"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:text="带宽"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/one_start_bw"
+                    android:layout_width="@dimen/DIMEN_120PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:gravity="center"
+                    android:text="200K"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:text="接收极化"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/one_start_type"
+                    android:layout_width="@dimen/DIMEN_120PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:gravity="center"
+                    android:text="垂直"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:text="调制解调"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/one_start_modem"
+                    android:layout_width="@dimen/DIMEN_120PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:gravity="center"
+                    android:text="Gilat"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:text="RSSI门限值"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/one_start_rssi"
+                    android:layout_width="@dimen/DIMEN_120PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:gravity="center"
+                    android:text="3000"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:text="接收极化角"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/one_start_receiving_pol"
+                    android:layout_width="@dimen/DIMEN_120PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:gravity="center"
+                    android:text="22.46"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:text="发送极化角"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/one_start_send_pol"
+                    android:layout_width="@dimen/DIMEN_120PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:gravity="center"
+                    android:text="22.46"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:text="Ed/NO值"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/one_start_ebn0"
+                    android:layout_width="@dimen/DIMEN_120PX"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:gravity="center"
+                    android:text="1.0"
+                    android:textColor="#7A7A7A"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <Button
+                android:id="@+id/onestart_default_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/DIMEN_30PX"
+                android:background="@drawable/onestart_setdefault_selector" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/onestart_01"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/DIMEN_8PX"
+                    android:layout_weight="1"
+                    android:background="@drawable/save_btn_selector"
+                    android:onClick="onClick"
+                    android:text="配置下发"
+                    android:textColor="@color/device_statu_text_selcet" />
+
+                <Button
+                    android:id="@+id/onestart_02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/DIMEN_8PX"
+                    android:layout_weight="1"
+                    android:background="@drawable/save_btn_selector"
+                    android:onClick="onClick"
+                    android:text="一键对星"
+                    android:textColor="@color/device_statu_text_selcet" />
+
+                <Button
+                    android:id="@+id/onestart_03"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/DIMEN_8PX"
+                    android:layout_weight="1"
+                    android:background="@drawable/save_btn_selector"
+                    android:onClick="onClick"
+                    android:text="收星"
+                    android:textColor="@color/device_statu_text_selcet" />
+
+                <Button
+                    android:id="@+id/onestart_04"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/DIMEN_8PX"
+                    android:layout_weight="1"
+                    android:background="@drawable/save_btn_selector"
+                    android:onClick="onClick"
+                    android:text="停止"
+                    android:textColor="@color/device_statu_text_selcet" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

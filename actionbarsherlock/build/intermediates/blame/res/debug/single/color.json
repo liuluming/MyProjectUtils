@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_disable_only_holo_light.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\res\\color\\abs__primary_text_disable_only_holo_light.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_disable_only_holo_dark.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\res\\color\\abs__primary_text_disable_only_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_holo_light.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\res\\color\\abs__primary_text_holo_light.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\build\\intermediates\\res\\merged\\debug\\color\\abs__primary_text_holo_dark.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\actionbarsherlock\\res\\color\\abs__primary_text_holo_dark.xml"
+    }
+]

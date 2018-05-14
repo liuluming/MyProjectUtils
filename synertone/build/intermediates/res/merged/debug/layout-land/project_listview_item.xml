@@ -1,0 +1,292 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_50PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bw_project_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ImageView
+            android:id="@+id/bw_project_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:scaleType="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pro_mingcheng"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:fontFamily="@string/myfont"
+            android:text="名 称:"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bw_project_name"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pro_yuanadress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:fontFamily="@string/myfont"
+            android:text="源地址:"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bw_project_saddress"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pro_yuanduankou"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:fontFamily="@string/myfont"
+            android:text="源端口:"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bw_project_port"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pro_mubiaoadress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:fontFamily="@string/myfont"
+            android:text="目标地址:"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bw_project_target"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pro_mubiaoduankou"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:fontFamily="@string/myfont"
+            android:text="目标端口:"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bw_project_tagport"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pro_xieyi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:fontFamily="@string/myfont"
+            android:text="协 议:"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Spinner
+            android:id="@+id/bw_project_protocol"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/xialaspinner"
+            android:entries="@array/bwproject_protocol"
+            android:fontFamily="@string/myfont"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pro_celue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:fontFamily="@string/myfont"
+            android:text="策 略:"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Spinner
+            android:id="@+id/bw_project_plan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/xialaspinner"
+            android:fontFamily="@string/myfont"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/DIMEN_20PX"
+        android:layout_marginLeft="@dimen/DIMEN_100PX"
+        android:layout_marginRight="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_40PX"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/bw_project_referbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_marginRight="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/project_xiugai_sel" />
+
+
+        <Button
+            android:id="@+id/bw_project_addbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/guize_tianjia_layout" />
+
+        <Button
+            android:id="@+id/bw_project_delebtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/guize_shanchu_layout" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_20PX"
+        android:background="#edf1f5" />
+
+</LinearLayout>

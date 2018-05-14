@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/logo_login" />
+
+    <EditText
+        android:id="@+id/gaojiaccount_ed_user"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/bg_account"
+        android:ems="10"
+        android:hint="请输入ID账号"
+        android:paddingLeft="55dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/gaojiaccount_ed_password"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_password"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:paddingLeft="55dp"
+        android:singleLine="true" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/jinru"
+        android:onClick="onGaojiaccount"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

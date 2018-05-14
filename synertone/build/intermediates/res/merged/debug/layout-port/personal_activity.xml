@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/running_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#90A4AE">
+
+        <ImageButton
+            android:id="@+id/more_finish"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/running_statu_icon_back"
+            android:onClick="onPersonFinish" />
+
+        <TextView
+            android:id="@+id/personal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/more_finish"
+            android:fontFamily="@string/myfont"
+            android:text="个人中心"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/personal_revise_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/mimaxiugai" />
+
+        <TextView
+            android:id="@+id/mimaxiugai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="密码修改"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:textColor="@color/fontcolor" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:textColor="@color/fontcolor" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/DIMEN_10PX"
+
+            android:background="@drawable/come_btn" /><!--  android:layout_weight="1" -->
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:layout_gravity="center"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/appshengji" />
+
+        <TextView
+            android:id="@+id/app_shengji"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="App升级"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <TextView
+            android:id="@+id/banbenhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="当前版本号："
+            android:textColor="@color/fontcolor" />
+
+        <TextView
+            android:id="@+id/personal_version_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="1.48"
+            android:textColor="@color/fontcolor" />
+
+        <ToggleButton
+            android:id="@+id/personla_query_version"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/DIMEN_10PX"
+            android:background="@drawable/ios7_btn"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" /><!--  android:layout_weight="1" -->
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:layout_gravity="center"
+        android:background="#CFCFCF" />
+</LinearLayout>

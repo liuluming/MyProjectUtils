@@ -1,0 +1,722 @@
+[
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\personal_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\personal_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\network_optiminzation_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\network_optiminzation_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\wifilist_dialog_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\wifilist_dialog_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\alarm_list.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\alarm_list.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_deviceid.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_deviceid.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\rfdevice_list_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\rfdevice_list_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\blpdeviceinfofragment.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\blpdeviceinfofragment.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_set.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_set.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\video_meeting_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\video_meeting_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\network_set_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\network_set_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\coremodule_simple_list.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\coremodule_simple_list.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\view_actionsheet.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\view_actionsheet.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\local_folder_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\local_folder_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_conversation.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\activity_conversation.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\super_set_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\super_set_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_set_wifi.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_set_wifi.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\wifilist_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\wifilist_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\player_view.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\player_view.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\devinfo_acy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\devinfo_acy.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\waiting_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\waiting_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\webautset_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\webautset_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\dialog_loading.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\dialog_loading.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\softupdate_progress.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\softupdate_progress.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\wifi_list_adapter_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\wifi_list_adapter_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\layout_register.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\layout_register.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\pic_grid_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\pic_grid_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\call_all_listview_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\call_all_listview_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\base_custom_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\base_custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\voip_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\voip_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\netops_blacklist_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\netops_blacklist_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\comment_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\comment_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\wanset_pppoe_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\wanset_pppoe_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\umts_gprs_evdo_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\umts_gprs_evdo_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\bar_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\bar_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\fragment_contact.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\fragment_contact.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\rescomm_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\rescomm_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\numpad.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\numpad.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\ip_speed_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\ip_speed_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\project_listview_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\project_listview_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_gaojiaccount.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\activity_gaojiaccount.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\main_bottom_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\main_bottom_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\layout_device_list.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\layout_device_list.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_reticle_link.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_reticle_link.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\phone_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\phone_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\section_row_view.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\section_row_view.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\local_video_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\local_video_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\regst_erro_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\regst_erro_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\home_tip_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\home_tip_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guid_addbywifi.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guid_addbywifi.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\ipspeed_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\ipspeed_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\sdrecord_download_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\sdrecord_download_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\change_psw_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\change_psw_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\disconnect.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\disconnect.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\wifiset_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\wifiset_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\super_bwoverlay_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\super_bwoverlay_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\plan_listview_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\plan_listview_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\row_view.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\row_view.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\device_start_statu_fragment.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\device_start_statu_fragment.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\wanset_dhcp.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\wanset_dhcp.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\login_erro_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\login_erro_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\del_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\del_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\while_list_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\while_list_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_smartwifi.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_smartwifi.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\netops_whilelist_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\netops_whilelist_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\acy_play.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\acy_play.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\gvap_device_info.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\gvap_device_info.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\net3gsettingacy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\net3gsettingacy.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_direct_entry.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\activity_direct_entry.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\rfdeviceinfo.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\rfdeviceinfo.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\sdrecord_nvr_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\sdrecord_nvr_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\reswifi_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\reswifi_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\sd_devlist_acy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\sd_devlist_acy.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\loading_empty_view.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\loading_empty_view.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\tele_fragment_lists.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\tele_fragment_lists.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\set_frame.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\set_frame.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\content_frame.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\content_frame.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\fourplayerwindow.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\fourplayerwindow.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\qos_baseset_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\qos_baseset_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\ac_contacts_details.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\ac_contacts_details.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\device_start_coremodule_fragment.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\device_start_coremodule_fragment.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\rfdevice_guide.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\rfdevice_guide.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\rfdevicelist.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\rfdevicelist.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\alarmrecordacy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\alarmrecordacy.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\list.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\list.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\local_setting_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\local_setting_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\rename_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\rename_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\netset_item_lv.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\netset_item_lv.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\local_video_acy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\local_video_acy.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_smartsound.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_smartsound.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_main.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_main.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\wanset_static_ip.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\wanset_static_ip.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_forgetpassword.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\activity_forgetpassword.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\login_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\login_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\bw_project_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\bw_project_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\call_person.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\call_person.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_wifi_list.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_wifi_list.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\routing_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\routing_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\shengji_tip_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\shengji_tip_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\video_monitor_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\video_monitor_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\blppersonlist_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\blppersonlist_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\pic_video_acy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\pic_video_acy.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\locationmap.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\locationmap.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\dev_img_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\dev_img_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_address_config.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\activity_address_config.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\corner_list_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\corner_list_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\text_bubble.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\text_bubble.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\waitactivity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\waitactivity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\system_linfo_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\system_linfo_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\lanset_set.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\lanset_set.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\member_listview_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\member_listview_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\preview_view.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\preview_view.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_only_wifi.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_only_wifi.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\bwsuper_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\bwsuper_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\about_content.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\about_content.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\cloudrecord_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\cloudrecord_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\phoneitem.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\phoneitem.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\interfer_listview_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\interfer_listview_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\fragment_content111.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\fragment_content111.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\popupwindow_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\popupwindow_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_3g_select.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_3g_select.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\add_dev_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\add_dev_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_login.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_login.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\wifi_config_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\wifi_config_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\staticroute_linfo_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\staticroute_linfo_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\local_setting_change_pwd.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\local_setting_change_pwd.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\set_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\set_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\splash_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\splash_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\login.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\login.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\local_setting_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\local_setting_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_cameralocation.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\activity_cameralocation.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\bw_plan_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\bw_plan_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\lv_header.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\lv_header.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\black_list_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\black_list_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\tel_list_adapter.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\tel_list_adapter.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_vod.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\activity_vod.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\voice_rcd_hint_window.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\voice_rcd_hint_window.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_welcome.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\reswifi_list_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\reswifi_list_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\rfdevicetypefragment.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\rfdevicetypefragment.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\wiredsettingacy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\wiredsettingacy.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\bw_interface_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\bw_interface_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\dimentional.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\dimentional.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\home_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\home_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\view_topbar_yzx.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\view_topbar_yzx.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\rfinfoeditdialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\rfinfoeditdialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\set_server_addr.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\set_server_addr.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\progressbar.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\progressbar.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\avparameteracy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\avparameteracy.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_platform.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_platform.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\sdrecord_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\sdrecord_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\blpdevlist_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\blpdevlist_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\sdrecord_folder_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\sdrecord_folder_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\toast_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\toast_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\menu_frame.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\menu_frame.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\generalsettingacy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\generalsettingacy.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\pass_custom_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\pass_custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\device_list_head.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\device_list_head.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_prepare.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_prepare.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\guide_3g_internet.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\guide_3g_internet.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\device_list_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\device_list_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\row.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\row.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\super_system_update_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\super_system_update_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\firewallinfo_layout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\firewallinfo_layout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\activity_audio_converse.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\activity_audio_converse.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\index_bar_view.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\index_bar_view.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\password_modifi_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\password_modifi_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\wirelesssettingacy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\wirelesssettingacy.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\link_state_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\link_state_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\filesize_dialog.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\filesize_dialog.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\item_sort_listview.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\item_sort_listview.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\add_devid_acy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\add_devid_acy.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\device_statu_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\device_statu_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\wanset_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\wanset_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\fragment_content222.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\fragment_content222.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\bw_member_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\bw_member_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\rfdevice_nine_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\rfdevice_nine_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\list_item.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\list_item.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\super_onestart_activity.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\super_onestart_activity.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\calendar_main.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\calendar_main.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\layout-port\\blpdetailacy.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\layout-port\\blpdetailacy.xml"
+    }
+]

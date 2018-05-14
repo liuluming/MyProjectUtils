@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/titlebgcolor">
+
+        <ImageButton
+            android:id="@+id/map_dingwei"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/running_statu_icon_back"
+            android:onClick="onPersonFinish" />
+
+        <TextView
+            android:id="@+id/dingweimap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/map_dingwei"
+            android:fontFamily="@string/myfont"
+            android:text="定位"
+            android:textColor="@color/white"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:apiKey="ZBkEb0EIRKVs9hwQ2nhN7sWGMBWeT9wN"
+        android:clickable="true" />
+
+
+</LinearLayout>

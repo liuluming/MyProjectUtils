@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\ripplelayoutmaster\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 356,
+                    "endColumn": 49,
+                    "endOffset": 401
+                },
+                "from": {
+                    "file": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\ripplelayoutmaster\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 356,
+                        "endColumn": 49,
+                        "endOffset": 401
+                    }
+                }
+            }
+        ]
+    }
+]

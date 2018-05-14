@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\pullToRefreshLibrary\\unspecified\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_exit.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\dialog_exit.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\pullToRefreshLibrary\\unspecified\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\actionsheet_dialog_out.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\actionsheet_dialog_out.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\buttom_to_top.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\buttom_to_top.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_dismiss.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\dialog_dismiss.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\pullToRefreshLibrary\\unspecified\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\cancel_rc2.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\cancel_rc2.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_show.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\dialog_show.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\top_to_buttom.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\top_to_buttom.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\topin.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\topin.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\left_in.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\left_in.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\out.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\out.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_enter.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\dialog_enter.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\topout.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\topout.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\enter_anim.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\nicedialog\\unspecified\\res\\anim\\enter_anim.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\pullToRefreshLibrary\\unspecified\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\loading.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\loading.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\right_out.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\right_out.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\in.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\in.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_in.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\dialog_in.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_left.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\cancel_rc.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\cancel_rc.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\loading2.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\loading2.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\actionsheet_dialog_in.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\actionsheet_dialog_in.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\exit_anim.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\exploded-aar\\src-app\\nicedialog\\unspecified\\res\\anim\\exit_anim.xml"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_out.xml",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\anim\\dialog_out.xml"
+    }
+]

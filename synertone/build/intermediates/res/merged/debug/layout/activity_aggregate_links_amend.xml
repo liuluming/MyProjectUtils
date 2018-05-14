@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+<include layout="@layout/top_bar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_aggregated_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/aggregated_name"
+            android:textColor="@color/fontcolor"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_aggregated_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/superset_kongbai"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+          android:layout_alignParentRight="true"
+            android:textColor="@color/fontcolor"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_aggregated_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="模式"
+            android:textColor="@color/fontcolor"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/sp_aggregate_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/superset_kongbai"
+            android:entries="@array/aggregate_mode"
+            android:spinnerMode="dropdown"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/fontcolor"
+            android:textSize="14sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_arrow_down"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_net_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/net_link"
+        android:textColor="@color/fontcolor"
+        android:textSize="15sp" />
+   <GridView
+       android:id="@+id/gv_channels"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:cacheColorHint="@color/transparent"
+       android:layout_marginLeft="10dp"
+       android:numColumns="3"
+       android:listSelector="@color/transparent"></GridView>
+    <com.came.viewbguilib.ButtonBgUi
+        android:id="@+id/bt_save"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:clickable="true"
+        app:defaultColor="@color/button_normal"
+        app:raoundRadius="5dp"
+        app:isRipple="false"
+        android:text="@string/button_save"
+        >
+    </com.came.viewbguilib.ButtonBgUi>
+</LinearLayout>

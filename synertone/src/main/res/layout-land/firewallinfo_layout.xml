@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f9f9"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#90A4AD">
+
+        <ImageButton
+            android:id="@+id/back_btn_finish"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="@dimen/DIMEN_10PX"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/running_statu_icon_back"
+            android:onClick="backStatuOnFinish" />
+
+        <TextView
+            android:id="@+id/firewall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/back_btn_finish"
+            android:text="防火墙信息"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+    <!--
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/firewall_edi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:text="" >
+        </TextView>
+    </ScrollView>
+    -->
+    <ListView
+        android:id="@+id/firewall_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

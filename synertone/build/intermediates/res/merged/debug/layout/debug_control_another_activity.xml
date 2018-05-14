@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#90A4AD"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/running_statu_icon_back"
+                android:onClick="debugControlOnFinish" />
+
+            <TextView
+                android:id="@+id/tiaoshimoshi_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@string/myfont"
+                android:text="调试模式"
+                android:textColor="#fff"
+                android:textSize="@dimen/DIMEN_38PX" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:background="#E0E0E0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="@dimen/DIMEN_15PX"
+                android:fontFamily="@string/myfont"
+                android:gravity="center_vertical"
+                android:text="天线角度调试"
+                android:textColor="@color/fontcolor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_1PX"
+            android:background="#CFCFCF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/dangqianyangjiao_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="6"
+                    android:fontFamily="@string/myfont"
+                    android:text="当前俯仰角"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/debug_current_eangle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:digits="0123456789."
+                    android:fontFamily="@string/myfont"
+                    android:text="--"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mubiaojiaodu_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="5"
+                    android:fontFamily="@string/myfont"
+                    android:text="俯仰目标角"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <EditText
+                    android:id="@+id/debug_ed_epoint"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext"
+                    android:digits="0123456789."
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:hint="角度"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+                <!-- android:digits="0123456789-﹣－﹣." -->
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/zhuandongjiaodu_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="6"
+                    android:fontFamily="@string/myfont"
+                    android:text="转动方式"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/danbu_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="单步"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <!--  <Button
+                 android:id="@+id/debug_ebtn"
+                 android:layout_width="180dp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="@dimen/DIMEN_20PX"
+                 android:text="启动"
+                 android:textColor="@color/black"
+                 android:fontFamily="@string/myfont"
+                 android:background="@drawable/tianchong_grey" /> -->
+
+
+
+                <com.came.viewbguilib.ButtonBgUi
+                    android:id="@+id/debug_ebtn"
+                    android:layout_width="180dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/DIMEN_20PX"
+                    android:text="启动"
+                    android:gravity="center"
+                    android:textSize="@dimen/DIMEN_30PX"
+                    android:textColor="@color/black"
+                    android:clickable="true"
+                    app:defaultColor="#90A4AE"
+                    app:raoundRadius="5dp"
+                    app:isRipple="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dangqianshuiping"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="6"
+                    android:fontFamily="@string/myfont"
+                    android:text="当前方位角"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/debug_current_hangle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:digits="0123456789."
+                    android:fontFamily="@string/myfont"
+                    android:text="--"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mubiaojiaodu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="5"
+                    android:fontFamily="@string/myfont"
+                    android:text="方位目标角"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" /><!-- android:text="目标角度" -->
+
+                <EditText
+                    android:id="@+id/debug_ed_hpoint"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext"
+                    android:digits="-0123456789."
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:hint="角度"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/zhuandongfangshi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="6"
+                    android:fontFamily="@string/myfont"
+                    android:text="转动方式"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/danbu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="单步"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+                <com.came.viewbguilib.ButtonBgUi
+                    android:id="@+id/debug_hbtn"
+                    android:layout_width="180dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/DIMEN_20PX"
+                    android:text="启动"
+                    android:gravity="center"
+                    android:textSize="@dimen/DIMEN_30PX"
+                    android:textColor="@color/black"
+                    android:clickable="true"
+                    app:defaultColor="#90A4AE"
+                    app:raoundRadius="5dp"
+                    app:isRipple="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/debug_henggun_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="6"
+                    android:fontFamily="@string/myfont"
+                    android:text="横滚轴角度"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/debug_current_henggun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:digits="0123456789."
+                    android:fontFamily="@string/myfont"
+                    android:text="--"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/debug_ed_hengun"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="5"
+                    android:fontFamily="@string/myfont"
+                    android:text="目标横滚角"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" /><!-- android:text="目标角度" -->
+
+                <EditText
+                    android:id="@+id/debug_ed_gpoint"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext"
+                    android:digits="-0123456789."
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:hint="角度"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/zhuandonghenggun"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_10PX"
+                    android:layout_weight="6"
+                    android:fontFamily="@string/myfont"
+                    android:text="转动方式"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <TextView
+                    android:id="@+id/danbuhenggun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="单步"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_1PX"
+                android:background="#CFCFCF" />
+
+
+
+                <com.came.viewbguilib.ButtonBgUi
+                    android:id="@+id/debug_Gbtn"
+                    android:layout_width="180dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/DIMEN_20PX"
+                    android:text="启动"
+                    android:gravity="center"
+                    android:textSize="@dimen/DIMEN_30PX"
+                    android:textColor="@color/black"
+                    android:clickable="true"
+                    app:defaultColor="#90A4AE"
+                    app:raoundRadius="5dp"
+                    app:isRipple="false"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_marginTop="30dp"
+            android:background="#E0E0E0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="@dimen/DIMEN_15PX"
+                android:fontFamily="@string/myfont"
+                android:gravity="center_vertical"
+                android:text="系统调试"
+                android:textColor="@color/fontcolor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_1PX"
+            android:layout_gravity="center"
+            android:background="@drawable/konggetiao" />
+
+
+
+            <com.came.viewbguilib.ButtonBgUi
+                android:id="@+id/stop_bt"
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/DIMEN_20PX"
+                android:text="天线停止"
+                android:gravity="center"
+                android:textSize="@dimen/DIMEN_30PX"
+                android:textColor="@color/black"
+                android:clickable="true"
+                app:defaultColor="#90A4AE"
+                app:raoundRadius="5dp"
+                app:isRipple="false"/>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_1PX"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/konggetiao" />
+
+        <com.came.viewbguilib.ButtonBgUi
+            android:id="@+id/resume_bt"
+            android:layout_width="180dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/DIMEN_20PX"
+            android:text="天线重启"
+            android:gravity="center"
+            android:textSize="@dimen/DIMEN_30PX"
+            android:textColor="@color/black"
+            android:clickable="true"
+            app:defaultColor="#90A4AE"
+            app:raoundRadius="5dp"
+            app:isRipple="false"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_1PX"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/konggetiao" />
+
+        <com.came.viewbguilib.ButtonBgUi
+            android:id="@+id/luyouban_bt"
+            android:layout_width="180dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/DIMEN_20PX"
+            android:text="智能网关重启"
+            android:gravity="center"
+            android:textSize="@dimen/DIMEN_30PX"
+            android:textColor="@color/black"
+            android:clickable="true"
+            app:defaultColor="#90A4AE"
+            app:raoundRadius="5dp"
+            app:isRipple="false"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_1PX"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/konggetiao" />
+
+    </LinearLayout>
+</ScrollView> 

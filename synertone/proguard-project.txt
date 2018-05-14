@@ -1,0 +1,85 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+-libraryjars /libs/android-support-v13.jar
+-libraryjars /libs/zxing.jar
+-libraryjars /libs/aacdecoder-android-0.6.1.jar
+-libraryjars /libs/edit_lib.jar
+-libraryjars /libs/achartengine-1.1.0.jar
+-libraryjars /libs/armeabi-v7a/libaacdecoder.so
+-libraryjars /libs/armeabi-v7a/libVoAACEncoder.so
+-libraryjars /libs/armeabi-v7a/libArm7VideoDecoder.so
+-libraryjars /libs/armeabi-v7a/libAVAPIs.so
+-libraryjars /libs/armeabi-v7a/libcloudclientsdk.so
+-libraryjars /libs/armeabi-v7a/libIOTCAPIs.so
+-libraryjars /libs/armeabi-v7a/libRDTAPIs.so
+
+-libraryjars /libs/armeabi/libaacdecoder.so
+-libraryjars /libs/armeabi/libVoAACEncoder.so
+-libraryjars /libs/armeabi/libelianjni.so
+-libraryjars /libs/armeabi-v7a/libelianjni.so
+-libraryjars /libs/mips/libelianjni.so
+
+-libraryjars /libs/baidumapapi_base_v3_6_1.jar
+-libraryjars /libs/baidumapapi_cloud_v3_6_1.jar
+-libraryjars /libs/baidumapapi_map_v3_6_1.jar
+-libraryjars /libs/baidumapapi_radar_v3_6_1.jar
+-libraryjars /libs/baidumapapi_search_v3_6_1.jar
+-libraryjars /libs/baidumapapi_util_v3_6_1.jar
+-libraryjars /libs/locSDK_6.13.jar
+
+
+-keep public class * extends android.app.Fragment    
+-keep public class * extends android.app.Activity  
+-keep public class * extends android.app.Application  
+-keep public class * extends android.app.Service  
+-keep public class * extends android.content.BroadcastReceiver  
+-keep public class * extends android.content.ContentProvider  
+-keep public class * extends android.app.backup.BackupAgentHelper  
+-keep public class * extends android.preference.Preference  
+-keep public class * extends android.support.v4.**  
+
+-keep class android.support.v4.** { *; }
+-keep public class * extends android.support.v4.**{ *; }
+-keep public class * extends android.support.v13.**{ *; }
+-keep public class * extends android.app.Fragment{ *; }
+-keep public class com.actionbarsherlock.**{*;}
+-keep public class com.jeremyfeinstein.slidingmenu.**{ *; }
+-keep class com.my51c.see51.media.AACEncoder{ *; }
+-keep class com.my51c.see51.media.Arm6videoDecoder{ *; }
+-keep class com.my51c.see51.media.Arm7videoDecoder{ *; }
+-keep class com.my51c.see51.media.cloudsdk{ *; }
+-keep class com.my51c.see51.data.CloudFileInfo{ *; }
+-keep class com.my51c.see51.data.CloudHandle{ *; }
+-keep class com.my51c.see51.ui.CloudRecordActivity{ *; }
+-keep class com.my51c.see51.**{ *;}
+-keep class io.vov.vitamio.**{ *;}
+-keep class com.mediatek.elian.**{ *; }
+-keep class com.spoledge.aacdecoder.**{*;}
+-keep public class com.tencent.bugly.**{*;}
+-keep public class com.baidu.** {*;}
+-keep class vi.com.gdi.bgl.android.**{*;}
+
+
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-dontusemixedcaseclassnames  
+-dontskipnonpubliclibraryclasses  
+-verbose  
+-ignorewarnings  

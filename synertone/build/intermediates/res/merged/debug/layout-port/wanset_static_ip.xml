@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wan_ip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DIMEN_8PX"
+            android:layout_weight="4"
+            android:fontFamily="@string/myfont"
+            android:text="IP"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/wanset_static_ip"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="3"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wan_yanma"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DIMEN_8PX"
+            android:layout_weight="4"
+            android:fontFamily="@string/myfont"
+            android:text="掩码"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/wanset_static_mask"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="3"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wan_line"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DIMEN_8PX"
+            android:layout_weight="4"
+            android:fontFamily="@string/myfont"
+            android:text="网关"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/wanset_static_gw"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="3"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fuwuqi1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DIMEN_8PX"
+            android:layout_weight="4"
+            android:fontFamily="@string/myfont"
+            android:text="服务器1"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/wanset_static_dns1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="3"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fuwuqi2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DIMEN_8PX"
+            android:layout_weight="4"
+            android:fontFamily="@string/myfont"
+            android:text="服务器2"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/wanset_static_dns2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="3"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+</LinearLayout>

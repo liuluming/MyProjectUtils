@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/header_bar_color">
+
+        <LinearLayout
+            android:id="@+id/add_back_layout"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shap_menu_linearlayout"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/back_img_shap" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/divid_img"
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/progress_buffering" />
+
+    <TextView
+        style="@style/textFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/scaningrfdimensioncode" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtRFId"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext_shap"
+            android:digits="1234567890abcdefABCDEF"
+            android:drawableLeft="@drawable/error"
+            android:hint="@string/hintRFId"
+            android:inputType="textUri"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:id="@+id/imgBtnDimension"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/dimentional_code" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddRFDevice"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/button_shap"
+        android:text="@string/add"
+        android:textColor="@color/white" />
+</LinearLayout>

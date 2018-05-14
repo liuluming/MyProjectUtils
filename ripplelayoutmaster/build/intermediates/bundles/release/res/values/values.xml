@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RippleLayout"><attr format="color" name="color"/><attr format="dimension" name="strokeWidth"/><attr format="dimension" name="radius"/><attr format="integer" name="duration"/><attr format="integer" name="rippleNums"/><attr format="float" name="scale"/></declare-styleable>
+    <string name="app_name">RippleLayout</string>
+</resources>

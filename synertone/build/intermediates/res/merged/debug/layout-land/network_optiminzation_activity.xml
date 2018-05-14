@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#90A4AE">
+
+        <ImageButton
+            android:id="@+id/networkopt_btn_finish"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/running_statu_icon_back"
+            android:onClick="netWorkoptOnFinish" />
+
+        <TextView
+            android:id="@+id/rout_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_toRightOf="@id/networkopt_btn_finish"
+            android:fontFamily="@string/myfont"
+            android:text="带宽管理"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+
+
+    <!--
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/DIMEN_80PX"
+          android:gravity="center"
+           android:background="#F1F1F1"
+          android:orientation="horizontal" >
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:layout_marginLeft="16dp"
+              android:layout_weight="1"
+              android:text="宽带自定义"
+              android:textStyle="bold"
+              android:textColor="@color/fontcolor"
+              android:fontFamily="@string/myfont"
+              android:textSize="@dimen/DIMEN_35PX" />
+      </LinearLayout>
+
+     -->
+
+
+    <LinearLayout
+        android:id="@+id/network_opt_qosset"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/jibenshezhi" />
+
+        <TextView
+            android:id="@+id/qos_set"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="6"
+            android:fontFamily="@string/myfont"
+            android:text="QoS基本信息设置"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/come_btn" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:layout_gravity="center"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:id="@+id/network_opt_ipspeed"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/ipxiansu" />
+
+        <TextView
+            android:id="@+id/ipspeed_set"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="6"
+            android:fontFamily="@string/myfont"
+            android:text="指定IP限速"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/come_btn" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:layout_gravity="center"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:id="@+id/network_opt_whilelist"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/baimingdan" />
+
+        <TextView
+            android:id="@+id/white_set"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="6"
+            android:fontFamily="@string/myfont"
+            android:text="白名单设置"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/come_btn" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:layout_gravity="center"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:id="@+id/network_opt_blacklist"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/heimingdan" />
+
+        <TextView
+            android:id="@+id/black_set"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="6"
+            android:fontFamily="@string/myfont"
+            android:text="黑名单设置"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/come_btn" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:layout_gravity="center"
+        android:background="#CFCFCF" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_70PX"
+        android:layout_gravity="center"
+        android:background="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_90PX"
+        android:background="#F1F1F1"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/moshi_choose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="模式选择"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_35PX"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/netwodrk_opt_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:layout_weight="2"
+            android:background="@drawable/sprinner"
+            android:entries="@array/networkopt_bwmanger"
+            android:fontFamily="@string/myfont"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/fontcolor" />
+    </LinearLayout>
+</LinearLayout>

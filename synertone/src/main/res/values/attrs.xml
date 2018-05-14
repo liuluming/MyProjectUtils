@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="fontPath" format="string" />
+
+    <declare-styleable name="MySwitch_Style">
+        <!-- Default style for the Switch widget. -->
+        <attr name="MySwitchStyle" format="reference" />
+    </declare-styleable>
+
+    <!-- bm-add-1101 begain-->
+    <declare-styleable name="sweeplayout">
+        <attr name="holderwidth" format="dimension" />
+    </declare-styleable>
+    <!-- bm-add-1101 end-->
+
+    <declare-styleable name="MySwitch">
+        <!-- Drawable to use as the "thumb" that switches back and forth. -->
+        <attr name="thumb" format="reference" />
+        <!-- Drawable to use as the "track" that the switch thumb slides within. -->
+        <attr name="track" format="reference" />
+        <!-- Text to use when the switch is in the checked/"on" state. -->
+        <attr name="textOn" format="string" />
+        <!-- Text to use when the switch is in the unchecked/"off" state. -->
+        <attr name="textOff" format="string" />
+        <!-- Amount of padding on either side of text within the switch thumb. -->
+        <attr name="thumbTextPadding" format="dimension" />
+        <!-- TextAppearance style for text displayed on the switch thumb. -->
+        <attr name="switchTextAppearance" format="reference" />
+        <!-- Minimum width for the switch component -->
+        <attr name="switchMinWidth" format="dimension" />
+        <!-- Minimum space between the switch and caption text -->
+        <attr name="switchPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TextAppearance">
+        <!-- Text color. -->
+        <attr name="textColor" format="reference|color" />
+        <!-- Size of the text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp). -->
+        <attr name="textSize" format="dimension" />
+        <!-- Style (bold, italic, bolditalic) for the text. -->
+        <attr name="textStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <!-- Typeface (normal, sans, serif, monospace) for the text. -->
+        <attr name="typeface">
+            <enum name="normal" value="0" />
+            <enum name="sans" value="1" />
+            <enum name="serif" value="2" />
+            <enum name="monospace" value="3" />
+        </attr>
+        <!-- Color of the text selection highlight. -->
+        <attr name="textColorHighlight" format="reference|color" />
+        <!-- Color of the hint text. -->
+        <attr name="textColorHint" format="reference|color" />
+        <!-- Color of the links. -->
+        <attr name="textColorLink" format="reference|color" />
+        <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
+        <attr name="textAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+
+        <attr name="progress_text_offset" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference" />
+    </declare-styleable>
+
+    <style name="MySwitch">
+        <item name="track">@drawable/switch_bg_default</item>
+        <item name="thumb">@drawable/switch_inner_holo_dark</item>
+        <!--<item name="track">@drawable/switch_bg_default_mz</item>
+     <item name="thumb">@drawable/switch_thumb_activated_mz</item>-->
+        <item name="switchTextAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="thumbTextPadding">20dip</item>
+        <item name="switchMinWidth">96dip</item>
+        <item name="switchPadding">16dip</item>
+    </style>
+
+    <declare-styleable name="SegmentedGroup">
+        <attr name="sc_corner_radius" format="dimension" />
+        <attr name="sc_border_width" format="dimension" />
+        <attr name="sc_tint_color" format="color" />
+        <attr name="sc_checked_text_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ReboundScrollView">
+        <attr name="isPullDownPermisioon" format="boolean"></attr>
+    </declare-styleable>
+
+    <!-- bm-add-1101 begain -->
+    <declare-styleable name="PickerView">
+        <attr name="select_text_size" format="dimension"></attr>
+        <attr name="unselect_text_size" format="dimension"></attr>
+        <attr name="select_text_color" format="color"></attr>
+        <attr name="unselect_text_color" format="color"></attr>
+    </declare-styleable>
+    <!-- bm-add-1101 end -->
+
+
+    <!-- snt-add -->
+    <attr name="normal_icon" format="reference" />
+    <attr name="select_icon" format="reference" />
+    <attr name="text" format="string" />
+    <attr name="text_size" format="dimension" />
+    <attr name="text_normal_color" format="color" />
+    <attr name="text_select_color" format="color" />
+
+    <declare-styleable name="ChangeColorIconView">
+        <attr name="normal_icon" />
+        <attr name="select_icon" />
+        <attr name="text" />
+        <attr name="text_size" />
+        <attr name="text_normal_color" />
+        <attr name="text_select_color" />
+    </declare-styleable>
+    <declare-styleable name="Emojicon">
+        <attr name="emojiconSize" format="dimension" />
+    </declare-styleable>
+
+</resources>

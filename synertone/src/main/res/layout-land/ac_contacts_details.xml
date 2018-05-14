@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/running_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_308PX"
+        android:background="#135c91">
+
+        <ImageButton
+            android:id="@+id/more_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/running_nav_icon_back"
+            android:onClick="onPersonFinish" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@+id/more_finish"
+            android:text="华夏陈总"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/personal_revise_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_107PX"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="6"
+            android:text="13889727892"
+            android:textColor="#8a8a8a"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ImageButton
+            android:id="@+id/putong_call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fdfdfd"
+            android:src="@drawable/call_number_01" />
+
+        <ImageButton
+            android:id="@+id/wangluo_call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_weight="2"
+            android:background="#fdfdfd"
+            android:src="@drawable/internet_call_01"
+
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:layout_gravity="center"
+        android:background="#CFCFCF" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:layout_gravity="center"
+        android:background="#CFCFCF" />
+
+</LinearLayout>

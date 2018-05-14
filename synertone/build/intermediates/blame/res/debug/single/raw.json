@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\raw\\beling.wav",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\raw\\beling.wav"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\build\\intermediates\\res\\merged\\debug\\raw\\greed.mp3",
+        "source": "D:\\APP\\WYZS\\02_Android\\CODE\\branches\\STUDIO\\V1.3.0\\src-app\\synertone\\src\\main\\res\\raw\\greed.mp3"
+    }
+]

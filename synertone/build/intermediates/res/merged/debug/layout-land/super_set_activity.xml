@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/running_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/titlebgcolor">
+
+            <ImageButton
+                android:id="@+id/superset_onfinish"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/running_statu_icon_back"
+                android:onClick="superSetOnFinish" />
+
+            <TextView
+                android:id="@+id/super_gaojishezhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/superset_onfinish"
+                android:fontFamily="@string/myfont"
+                android:text="高级设置"
+                android:textColor="#fff"
+                android:textSize="@dimen/DIMEN_38PX" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:background="#E0E0E0">
+
+
+            <TextView
+                android:id="@+id/super_weixingshezhi"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="@dimen/DIMEN_15PX"
+                android:fontFamily="@string/myfont"
+                android:gravity="center_vertical"
+                android:text="天线设置"
+                android:textColor="@color/fontcolor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/superset_onestart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@drawable/icon_zhinengduixing" />
+
+            <TextView
+                android:id="@+id/super_shoudongduixing"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="13dp"
+                android:layout_weight="6"
+                android:fontFamily="@string/myfont"
+
+                android:text="手动对星"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_28PX" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/come_btn" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_3PX"
+            android:background="#CFCFCF" />
+
+        <LinearLayout
+            android:id="@+id/superset_ref"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@drawable/icon_canshushezhi" />
+
+            <TextView
+                android:id="@+id/super_canshushezhi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="13dp"
+                android:layout_weight="6"
+                android:fontFamily="@string/myfont"
+                android:text="参数设置"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_28PX" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/come_btn" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_3PX"
+            android:background="#CFCFCF" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_70PX"
+
+            android:background="#F1F1F1">
+
+            <TextView
+                android:id="@+id/super_wangluoshezhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@string/myfont"
+                android:text="带宽设置"
+                android:textColor="@color/fontcolor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/superset_link_state"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@drawable/icon_lianluzhuangtai" />
+
+            <TextView
+                android:id="@+id/super_lianluzhuangtai"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="13dp"
+                android:layout_weight="6"
+                android:fontFamily="@string/myfont"
+                android:text="链路状态"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_28PX" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/come_btn" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_3PX"
+            android:background="#CFCFCF" />
+
+        <LinearLayout
+            android:id="@+id/superset_routeset"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@drawable/icon_luyoushezhi" />
+
+            <TextView
+                android:id="@+id/super_luyoushezhi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="13dp"
+                android:layout_weight="6"
+                android:fontFamily="@string/myfont"
+                android:text="路由设置"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_28PX" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/come_btn" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_3PX"
+            android:background="#CFCFCF" />
+
+        <LinearLayout
+            android:id="@+id/superset_bandwidth"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@drawable/icon_kuandaidiejia" />
+
+            <TextView
+                android:id="@+id/super_daikuandiejia"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/DIMEN_25PX"
+                android:layout_weight="6"
+                android:fontFamily="@string/myfont"
+                android:text="带宽叠加"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_28PX" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/come_btn" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:background="#F1F1F1" />
+
+        <LinearLayout
+            android:id="@+id/superset_system_update"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@drawable/icon_xitongshengji" />
+
+            <TextView
+                android:id="@+id/super_xitongshengji"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/DIMEN_25PX"
+                android:layout_weight="6"
+                android:fontFamily="@string/myfont"
+                android:text="系统升级"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_28PX" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/come_btn" />
+        </LinearLayout>
+        <!--
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_70PX"
+                android:background="#F1F1F1" />
+
+            <LinearLayout
+                android:id="@+id/superset_password_modification"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_70PX"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:src="@drawable/icon_mimaxiugai" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/DIMEN_25PX"
+                    android:layout_weight="5"
+                    android:text="密码修改"
+                     android:fontFamily="@string/myfont"
+                        android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/come_btn" />
+            </LinearLayout>-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_3PX"
+            android:background="#CFCFCF" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/bwmember_text_oldname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/myfont"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/bwmember_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ImageView
+            android:id="@+id/bwmember_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:scaleType="center" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/member_jiekou"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="接口"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Spinner
+            android:id="@+id/bwmember_interfer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/sprinner"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/member_yuedianshu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="跃点数"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwmember_hopnum"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="2"
+            android:background="@drawable/superset_kongbai"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/member_quanzhong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="权重"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/bwmember_weigth"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_weight="2"
+            android:background="@drawable/superset_kongbai"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/DIMEN_20PX"
+        android:layout_marginLeft="@dimen/DIMEN_100PX"
+        android:layout_marginRight="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_40PX"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bwmember_delebtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_marginRight="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/jiekou_shanchu_layout" />
+
+        <Button
+            android:id="@+id/bwmember_revise_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_marginLeft="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/member_xiugai_layout" />
+
+
+        <Button
+            android:id="@+id/bwmember_savebtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/plan_tianjia_layout" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+</LinearLayout>

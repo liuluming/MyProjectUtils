@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF">
+
+    <TextView
+        android:id="@+id/tvessid"
+        android:layout_width="wrap_content"
+        android:layout_height="56.69999dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21.29999dip"
+        android:layout_toLeftOf="@+id/wifistrong"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="16.0dip" />
+
+    <ImageView
+        android:id="@+id/wifistrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20.0dip" />
+
+</RelativeLayout>

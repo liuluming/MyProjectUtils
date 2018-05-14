@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/huise"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/import_tip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_120PX"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="重要提示"
+        android:textColor="@color/white"
+        android:textSize="@dimen/DIMEN_50PX" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_190PX"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/import_tishiword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_40PX"
+            android:layout_marginLeft="@dimen/DIMEN_15PX"
+            android:layout_marginRight="@dimen/DIMEN_15PX"
+            android:layout_marginTop="@dimen/DIMEN_40PX"
+            android:background="@color/black"
+            android:gravity="center_horizontal"
+            android:text="您已经进入工程模式，该项操作有可能损伤您的设备，请确认是否进入？"
+            android:textColor="@color/white"
+            android:textSize="@dimen/DIMEN_36PX" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_80PX"
+        android:layout_marginBottom="@dimen/DIMEN_15PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+
+        android:layout_marginTop="@dimen/DIMEN_15PX"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/jinru"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/DIMEN_15PX"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="进入"
+            android:textColor="@color/black"
+            android:textSize="@dimen/DIMEN_35PX" />
+
+        <Button
+            android:id="@+id/quxiao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/DIMEN_15PX"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="取消"
+            android:textColor="@color/black"
+            android:textSize="@dimen/DIMEN_35PX" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Non focused states -->
+    <item android:drawable="@drawable/mk_dial_keyboard_num_8" android:state_focused="false" android:state_pressed="false" android:state_selected="false"></item>
+    <item android:drawable="@drawable/mk_dial_keyboard_num_8" android:state_focused="false" android:state_pressed="false" android:state_selected="true"></item>
+
+    <!-- Focused states -->
+    <item android:drawable="@drawable/mk_dial_keyboard_num_8" android:state_focused="true" android:state_pressed="true" android:state_selected="true"></item>
+    <item android:drawable="@drawable/mk_dial_keyboard_num_8" android:state_focused="true" android:state_pressed="true" android:state_selected="false"></item>
+
+    <!-- Pressed -->
+    <item android:drawable="@drawable/mk_dial_keyboard_num_select_8" android:state_pressed="true" />
+
+</selector><!-- From: file:/E:/androidworkspace_as/sdk_v4_914/mksdk/MKApplication/MKKeyboard/src/main/res/drawable/mk_dial_keyboard_num_08.xml -->

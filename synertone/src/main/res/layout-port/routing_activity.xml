@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#90A4AE">
+
+        <ImageButton
+            android:id="@+id/rout_btn_finish"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/running_statu_icon_back"
+            android:onClick="routSetOnFinish" />
+
+        <TextView
+            android:id="@+id/routing_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/rout_btn_finish"
+            android:fontFamily="@string/myfont"
+            android:text="路由设置"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/rout_wangluoshezhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@string/myfont"
+            android:text="网络设置"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_35PX" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_10PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:id="@+id/routset_lanset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_70PX"
+        android:layout_marginRight="@dimen/DIMEN_70PX"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rout_lan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="LAN口设置"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_25PX" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/come_btn" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_3PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:id="@+id/routset_wanset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_70PX"
+        android:layout_marginRight="@dimen/DIMEN_70PX"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rout_wan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="WAN口设置"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_25PX" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/come_btn" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_3PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:id="@+id/routset_wifiset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_70PX"
+        android:layout_marginRight="@dimen/DIMEN_70PX"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rout_wifi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="Wi-Fi设置"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_25PX" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/come_btn" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_50PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:id="@+id/webaut_set"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rout_web"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="WEB认证设置"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_35PX" />
+
+        <ToggleButton
+            android:id="@+id/routing_set_onoff"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/DIMEN_10PX"
+            android:background="@drawable/selector_super_set_btnchoose"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+        <!-- 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/DIMEN_20PX"
+            android:text="开"
+            android:textColor="#7A7A7A"
+            android:textSize="@dimen/DIMEN_30PX" />
+         -->
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_3PX"
+        android:background="#CFCFCF" />
+</LinearLayout>

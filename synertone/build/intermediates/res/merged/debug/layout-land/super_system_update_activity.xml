@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#90A4AD">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/running_nav_icon_back"
+            android:onClick="sysUpdataOnFinish" />
+
+        <TextView
+            android:id="@+id/sys_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/imageButton1"
+            android:fontFamily="@string/myfont"
+            android:text="@string/system_updata"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sys_shengji"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="@string/system_updata_itemupdata"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ToggleButton
+            android:id="@+id/system_updata_toggle"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/selector_super_set_btnchoose"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_2PX"
+        android:background="#C9C9C9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sys_mode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:fontFamily="@string/myfont"
+            android:text="@string/mode"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Spinner
+            android:id="@+id/system_updata_motion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/xialaspinner"
+            android:entries="@array/system_update_motion"
+            android:fontFamily="@string/myfont"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/fontcolor" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#C9C9C9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sys_fuwuqi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:fontFamily="@string/myfont"
+            android:text="@string/server"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Spinner
+            android:id="@+id/system_updata_sernum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/xialaspinner"
+            android:entries="@array/system_update_server"
+            android:fontFamily="@string/myfont"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/fontcolor" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#C9C9C9" />
+
+    <Button
+        android:id="@+id/save_upload_info222"
+        android:layout_width="@dimen/DIMEN_300PX"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/DIMEN_50PX"
+
+
+        android:background="@drawable/update_shengji_layout"
+        android:onClick="SaveUpload_info" />
+    <!--
+     -->
+
+
+</LinearLayout>

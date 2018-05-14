@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="DIMEN_1PX">0.6666667dp</dimen>
+    <dimen name="DIMEN_2PX">1.333333dp</dimen>
+    <dimen name="DIMEN_3PX">2dp</dimen>
+    <dimen name="DIMEN_8PX">5.333333dp</dimen>
+    <dimen name="DIMEN_10PX">6.666667dp</dimen>
+    <dimen name="DIMEN_12PX">8dp</dimen>
+    <dimen name="DIMEN_15PX">10dp</dimen>
+    <dimen name="DIMEN_20PX">13.33333dp</dimen>
+    <dimen name="DIMEN_22PX">14.66667dp</dimen>
+    <dimen name="DIMEN_25PX">16.66667dp</dimen>
+    <dimen name="DIMEN_28PX">18.66667dp</dimen>
+    <dimen name="DIMEN_30PX">20dp</dimen>
+    <dimen name="DIMEN_32PX">21.33333dp</dimen>
+    <dimen name="DIMEN_34PX">22.66667dp</dimen>
+    <dimen name="DIMEN_35PX">23.33333dp</dimen>
+    <dimen name="DIMEN_36PX">24dp</dimen>
+    <dimen name="DIMEN_38PX">25.33333dp</dimen>
+    <dimen name="DIMEN_40PX">26.66667dp</dimen>
+    <dimen name="DIMEN_45PX">30dp</dimen>
+    <dimen name="DIMEN_50PX">33.33333dp</dimen>
+    <dimen name="DIMEN_55PX">36.66667dp</dimen>
+    <dimen name="DIMEN_58PX">38.66667dp</dimen>
+    <dimen name="DIMEN_60PX">40dp</dimen>
+    <dimen name="DIMEN_64PX">42.66667dp</dimen>
+    <dimen name="DIMEN_70PX">46.66667dp</dimen>
+    <dimen name="DIMEN_80PX">53.33333dp</dimen>
+    <dimen name="DIMEN_88PX">58.66667dp</dimen>
+    <dimen name="DIMEN_90PX">60dp</dimen>
+    <dimen name="DIMEN_96PX">64dp</dimen>
+    <dimen name="DIMEN_100PX">66.66666dp</dimen>
+    <dimen name="DIMEN_107PX">71.33334dp</dimen>
+    <dimen name="DIMEN_120PX">80dp</dimen>
+    <dimen name="DIMEN_144PX">96dp</dimen>
+    <dimen name="DIMEN_150PX">100dp</dimen>
+    <dimen name="DIMEN_180PX">120dp</dimen>
+    <dimen name="DIMEN_190PX">126.6667dp</dimen>
+    <dimen name="DIMEN_200PX">133.3333dp</dimen>
+    <dimen name="DIMEN_240PX">160dp</dimen>
+    <dimen name="DIMEN_260PX">173.3333dp</dimen>
+    <dimen name="DIMEN_280PX">186.6667dp</dimen>
+    <dimen name="DIMEN_300PX">200dp</dimen>
+    <dimen name="DIMEN_308PX">205.3333dp</dimen>
+    <dimen name="DIMEN_350PX">233.3333dp</dimen>
+    <dimen name="DIMEN_464PX">309.3333dp</dimen>
+    <dimen name="DIMEN_500PX">333.3333dp</dimen>
+    <dimen name="DIMEN_566PX">377.3333dp</dimen>
+
+</resources>

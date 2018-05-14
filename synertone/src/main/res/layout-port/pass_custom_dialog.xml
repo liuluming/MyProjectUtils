@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入密码:"
+            android:textColor="#000"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_80PX"
+            android:background="@drawable/bg_edittext"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+
+</LinearLayout>

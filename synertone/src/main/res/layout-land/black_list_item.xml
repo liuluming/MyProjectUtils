@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/black_username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="用户名"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <TextView
+            android:id="@+id/black_user"
+            android:layout_width="@dimen/DIMEN_150PX"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:textColor="@color/fontcolor" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/black_ip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="黑名单IP"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Spinner
+            android:id="@+id/black_ip_select"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/xialaspinner"
+            android:fontFamily="@string/myfont"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Spinner
+            android:id="@+id/black_ip_select_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/xialaspinner"
+            android:fontFamily="@string/myfont"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/black_mac"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="黑名单MAC"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Spinner
+            android:id="@+id/black_list_mac"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/xialaspinner"
+            android:fontFamily="@string/myfont"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Spinner
+            android:id="@+id/black_list_mac_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/xialaspinner"
+            android:fontFamily="@string/myfont"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginBottom="@dimen/DIMEN_20PX"
+        android:layout_marginLeft="@dimen/DIMEN_100PX"
+        android:layout_marginRight="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_40PX"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/black_list_delete"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_marginRight="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/ipspeed_shanchu_layout" />
+
+        <Button
+            android:id="@+id/black_list_set"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_marginLeft="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/ipspeed_shezhi_layout" />
+    </LinearLayout>
+
+</LinearLayout>

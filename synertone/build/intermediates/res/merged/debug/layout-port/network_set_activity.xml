@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX"
+        android:background="#135c91">
+
+        <ImageButton
+            android:id="@+id/more_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/running_nav_icon_back"
+            android:onClick="netWorkOnFinish" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/more_finish"
+            android:text="网络设置"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/network_satellite"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_107PX"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="5"
+            android:text="卫星网络"
+            android:textColor="#8a8a8a"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ToggleButton
+            android:id="@+id/network_satellite_onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DIMEN_10PX"
+            android:background="@drawable/ios7_btn"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:layout_gravity="center"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:id="@+id/network_set_34g"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_107PX"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="5"
+            android:text="3G/4G公网"
+            android:textColor="#8a8a8a"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ToggleButton
+            android:id="@+id/network_sim_onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DIMEN_10PX"
+            android:background="@drawable/ios7_btn"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:layout_gravity="center"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:id="@+id/network_set_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_107PX"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="5"
+            android:text="WIFI"
+            android:textColor="#8a8a8a"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ToggleButton
+            android:id="@+id/network_wifi_onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DIMEN_10PX"
+            android:background="@drawable/ios7_btn"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_70PX"
+        android:layout_gravity="center"
+        android:background="#F1F1F1" />
+
+    <LinearLayout
+        android:id="@+id/network_bw_first"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_107PX"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="5"
+            android:text="带宽优先"
+            android:textColor="#8a8a8a"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ToggleButton
+            android:id="@+id/network_bw_onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DIMEN_10PX"
+            android:background="@drawable/ios7_btn"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:layout_gravity="center"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:id="@+id/network_tariff"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_107PX"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_weight="5"
+            android:text="资费优先"
+            android:textColor="#8a8a8a"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ToggleButton
+            android:id="@+id/network_tariff_onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DIMEN_10PX"
+            android:background="@drawable/ios7_btn"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_70PX"
+        android:layout_gravity="center"
+        android:background="#F1F1F1" />
+</LinearLayout>

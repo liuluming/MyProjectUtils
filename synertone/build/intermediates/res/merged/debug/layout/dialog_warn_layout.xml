@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_corner_white_bg_gray_stroke"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="40dp"
+    android:paddingTop="40dp">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/iv_warn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="安全警告"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_warn_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(5)"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

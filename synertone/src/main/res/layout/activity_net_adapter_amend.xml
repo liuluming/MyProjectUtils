@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/shape_divider"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_net_adapter_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="4"
+                        android:text="@string/aggregated_name"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/et_net_adapter_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/superset_kongbai"
+                        android:fontFamily="@string/myfont"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/fontcolor"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_interface_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="4"
+                        android:text="接口"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="15sp" />
+
+                    <Spinner
+                        android:id="@+id/sp_interface_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/superset_kongbai"
+                        android:entries="@array/aggregate_mode"
+                        android:gravity="center"
+                        android:spinnerMode="dropdown"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="18dp"
+                        android:src="@drawable/iv_arrow_down" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_protocol_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="4"
+                        android:text="网络协议"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="15sp" />
+
+                    <Spinner
+                        android:id="@+id/sp_protocol_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/superset_kongbai"
+                        android:entries="@array/aggregate_mode"
+                        android:gravity="center"
+                        android:spinnerMode="dropdown"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="18dp"
+                        android:src="@drawable/iv_arrow_down" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_static_ip_config"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="静态IP配置"
+                        android:textSize="14sp" />
+           <android.support.constraint.ConstraintLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp">
+               <TextView
+                   android:id="@+id/tv_sour_ip"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/ip_address"
+                   android:textColor="@color/fontcolor"
+                   android:textSize="@dimen/DIMEN_30PX"
+                   app:layout_constraintRight_toRightOf="@+id/tv_dns2"
+                   app:layout_constraintTop_toTopOf="@+id/et_sour_ip"
+                   app:layout_constraintBottom_toBottomOf="@+id/et_sour_ip"/>
+
+               <EditText
+                   android:id="@+id/et_sour_ip"
+                   android:layout_width="wrap_content"
+                   android:layout_height="1dp"
+                   android:background="@drawable/superset_kongbai"
+                   android:digits="1234567890."
+                   android:fontFamily="@string/myfont"
+                   android:gravity="center"
+                   android:inputType="number"
+                   android:singleLine="true"
+                   android:text=""
+                   android:textColor="@color/fontcolor"
+                   android:textSize="14sp"
+                   app:layout_constraintLeft_toRightOf="@+id/tv_sour_ip"
+                   tools:layout_editor_absoluteY="0dp" />
+               <TextView
+                   android:id="@+id/tv_gateway"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/gateway_address"
+                   android:textColor="@color/fontcolor"
+                   android:textSize="@dimen/DIMEN_30PX"
+                   app:layout_constraintRight_toRightOf="@+id/tv_dns2"
+                   app:layout_constraintTop_toTopOf="@+id/et_gateway"
+                   app:layout_constraintBottom_toBottomOf="@+id/et_gateway"/>
+
+               <EditText
+                   android:id="@+id/et_gateway"
+                   android:layout_width="wrap_content"
+                   android:layout_height="1dp"
+                   android:background="@drawable/superset_kongbai"
+                   android:digits="1234567890."
+                   android:fontFamily="@string/myfont"
+                   android:gravity="center"
+                   android:inputType="number"
+                   android:singleLine="true"
+                   android:text=""
+                   android:textColor="@color/fontcolor"
+                   android:textSize="14sp"
+                   android:layout_marginTop="@dimen/input_margin_top"
+                   app:layout_constraintLeft_toRightOf="@+id/tv_gateway"
+                   app:layout_constraintTop_toBottomOf="@+id/et_sour_ip"/>
+               <TextView
+                   android:id="@+id/tv_mask"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/mask_content"
+                   android:textColor="@color/fontcolor"
+                   android:textSize="@dimen/DIMEN_30PX"
+                   app:layout_constraintTop_toTopOf="@+id/et_mask"
+                   app:layout_constraintBottom_toBottomOf="@+id/et_mask"
+                   app:layout_constraintRight_toRightOf="@+id/tv_dns2"/>
+
+               <EditText
+                   android:id="@+id/et_mask"
+                   android:layout_width="wrap_content"
+                   android:layout_height="1dp"
+                   android:background="@drawable/superset_kongbai"
+                   android:digits="1234567890."
+                   android:fontFamily="@string/myfont"
+                   android:gravity="center"
+                   android:inputType="number"
+                   android:singleLine="true"
+                   android:text=""
+                   android:textColor="@color/fontcolor"
+                   android:textSize="14sp"
+                   android:layout_marginTop="@dimen/input_margin_top"
+                   app:layout_constraintLeft_toRightOf="@+id/tv_mask"
+                   app:layout_constraintTop_toBottomOf="@+id/et_gateway"/>
+               <TextView
+                   android:id="@+id/tv_dns1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/dns1_address"
+                   android:textColor="@color/fontcolor"
+                   android:textSize="@dimen/DIMEN_30PX"
+                   app:layout_constraintTop_toTopOf="@+id/et_dns1"
+                   app:layout_constraintBottom_toBottomOf="@+id/et_dns1"
+                   app:layout_constraintRight_toRightOf="@+id/tv_dns2"/>
+               <EditText
+                   android:id="@+id/et_dns1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="1dp"
+                   android:background="@drawable/superset_kongbai"
+                   android:digits="1234567890."
+                   android:fontFamily="@string/myfont"
+                   android:gravity="center"
+                   android:inputType="number"
+                   android:singleLine="true"
+                   android:text=""
+                   android:textColor="@color/fontcolor"
+                   android:textSize="14sp"
+                   android:layout_marginTop="@dimen/input_margin_top"
+                   app:layout_constraintLeft_toRightOf="@+id/tv_dns1"
+                   app:layout_constraintTop_toBottomOf="@+id/et_mask"/>
+
+               <TextView
+                   android:id="@+id/tv_dns2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:text="@string/dns2_address"
+                   android:textColor="@color/fontcolor"
+                   android:textSize="@dimen/DIMEN_30PX"
+                   app:layout_constraintLeft_toLeftOf="parent"
+                   app:layout_constraintTop_toTopOf="@+id/et_dns2"
+                   app:layout_constraintBottom_toBottomOf="@+id/et_dns2"
+                   android:layout_marginStart="10dp" />
+               <EditText
+                   android:id="@+id/et_dns2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="1dp"
+                   android:background="@drawable/superset_kongbai"
+                   android:digits="1234567890."
+                   android:fontFamily="@string/myfont"
+                   android:gravity="center"
+                   android:inputType="number"
+                   android:singleLine="true"
+                   android:text=""
+                   android:textColor="@color/fontcolor"
+                   android:textSize="14sp"
+                   app:layout_constraintLeft_toRightOf="@+id/tv_dns2"
+                   app:layout_constraintTop_toBottomOf="@+id/et_dns1"
+                   android:layout_marginTop="@dimen/input_margin_top"/>
+           </android.support.constraint.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_PPPoE_config"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/pppoe_config"
+                        android:textSize="14sp" />
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+                        <TextView
+                            android:id="@+id/tv_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/account_name"
+                            android:textColor="@color/fontcolor"
+                            android:textSize="@dimen/DIMEN_30PX"
+                            app:layout_constraintTop_toTopOf="@+id/et_username"
+                            app:layout_constraintBottom_toBottomOf="@+id/et_username"
+                            app:layout_constraintRight_toRightOf="@+id/tv_confirm_password"/>
+
+                        <EditText
+                            android:id="@+id/et_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@drawable/superset_kongbai"
+                            android:fontFamily="@string/myfont"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/fontcolor"
+                            android:textSize="14sp"
+                            app:layout_constraintLeft_toRightOf="@+id/tv_username"
+                            tools:layout_editor_absoluteY="0dp" />
+                        <TextView
+                            android:id="@+id/tv_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/password_lin"
+                            android:textColor="@color/fontcolor"
+                            android:textSize="@dimen/DIMEN_30PX"
+                            app:layout_constraintTop_toTopOf="@+id/et_password"
+                            app:layout_constraintBottom_toBottomOf="@+id/et_password"
+                            app:layout_constraintRight_toRightOf="@+id/tv_confirm_password"/>
+
+                        <EditText
+                            android:id="@+id/et_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@drawable/superset_kongbai"
+                            android:fontFamily="@string/myfont"
+                            android:gravity="center"
+                            android:inputType="textPassword"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/fontcolor"
+                            android:textSize="14sp"
+                            app:layout_constraintLeft_toRightOf="@+id/tv_password"
+                            app:layout_constraintTop_toBottomOf="@+id/et_username"
+                            android:layout_marginTop="@dimen/input_margin_top"/>
+                        <TextView
+                            android:id="@+id/tv_confirm_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="确认口令："
+                            android:textColor="@color/fontcolor"
+                            android:textSize="@dimen/DIMEN_30PX"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/et_confirm_password"
+                            app:layout_constraintBottom_toBottomOf="@+id/et_confirm_password"
+                            android:layout_marginStart="10dp" />
+                        <EditText
+                            android:id="@+id/et_confirm_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@drawable/superset_kongbai"
+                            android:fontFamily="@string/myfont"
+                            android:gravity="center"
+                            android:inputType="textPassword"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/fontcolor"
+                            android:textSize="14sp"
+                            app:layout_constraintLeft_toRightOf="@+id/tv_confirm_password"
+                            app:layout_constraintTop_toBottomOf="@+id/et_password"
+                            android:layout_marginTop="@dimen/input_margin_top"/>
+                    </android.support.constraint.ConstraintLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_anp_config"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="APN配置"
+                        android:textSize="14sp" />
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_apn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/apn"
+                            android:textColor="@color/fontcolor"
+                            android:textSize="@dimen/DIMEN_30PX"
+                            app:layout_constraintBottom_toBottomOf="@+id/et_apn"
+                            app:layout_constraintTop_toTopOf="@+id/et_apn"
+                            app:layout_constraintRight_toRightOf="@+id/tv_confirm_anp_password"/>
+
+                        <EditText
+                            android:id="@+id/et_apn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@drawable/superset_kongbai"
+                            android:fontFamily="@string/myfont"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/fontcolor"
+                            android:textSize="14sp"
+                            app:layout_constraintLeft_toRightOf="@+id/tv_apn"
+                            tools:layout_editor_absoluteY="0dp" />
+
+                        <TextView
+                            android:id="@+id/tv_apn_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="用户名："
+                            android:textColor="@color/fontcolor"
+                            android:textSize="@dimen/DIMEN_30PX"
+                            app:layout_constraintBottom_toBottomOf="@+id/et_apn_username"
+                            app:layout_constraintTop_toTopOf="@+id/et_apn_username"
+                            app:layout_constraintRight_toRightOf="@+id/tv_confirm_anp_password"/>
+
+                        <EditText
+                            android:id="@+id/et_apn_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/input_margin_top"
+                            android:background="@drawable/superset_kongbai"
+                            android:fontFamily="@string/myfont"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/fontcolor"
+                            android:textSize="14sp"
+                            app:layout_constraintLeft_toRightOf="@+id/tv_apn_username"
+                            app:layout_constraintTop_toBottomOf="@+id/et_apn"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_anp_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="密码："
+                            android:textColor="@color/fontcolor"
+                            android:textSize="@dimen/DIMEN_30PX"
+                            app:layout_constraintBottom_toBottomOf="@+id/et_apn_password"
+                            app:layout_constraintRight_toRightOf="@+id/tv_confirm_anp_password"
+                            app:layout_constraintTop_toTopOf="@+id/et_apn_password" />
+
+                        <EditText
+                            android:id="@+id/et_apn_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/input_margin_top"
+                            android:background="@drawable/superset_kongbai"
+                            android:fontFamily="@string/myfont"
+                            android:gravity="center"
+                            android:inputType="textPassword"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/fontcolor"
+                            android:textSize="14sp"
+                            app:layout_constraintLeft_toRightOf="@+id/tv_anp_password"
+                            app:layout_constraintTop_toBottomOf="@+id/et_apn_username" />
+
+                        <TextView
+                            android:id="@+id/tv_confirm_anp_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="确认密码："
+                            android:textColor="@color/fontcolor"
+                            android:textSize="@dimen/DIMEN_30PX"
+                            app:layout_constraintBottom_toBottomOf="@+id/et_confirm_apn_password"
+                            app:layout_constraintTop_toTopOf="@+id/et_confirm_apn_password"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            android:layout_marginStart="10dp" />
+
+                        <EditText
+                            android:id="@+id/et_confirm_apn_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/input_margin_top"
+                            android:background="@drawable/superset_kongbai"
+                            android:fontFamily="@string/myfont"
+                            android:gravity="center"
+                            android:inputType="textPassword"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/fontcolor"
+                            android:textSize="14sp"
+                            app:layout_constraintLeft_toRightOf="@+id/tv_confirm_anp_password"
+                            app:layout_constraintTop_toBottomOf="@+id/et_apn_password" />
+                    </android.support.constraint.ConstraintLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.came.viewbguilib.ButtonBgUi
+                android:id="@+id/bt_save"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/button_save"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:defaultColor="@color/button_normal"
+                app:isRipple="false"
+                app:raoundRadius="5dp"></com.came.viewbguilib.ButtonBgUi>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

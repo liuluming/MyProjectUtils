@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape_corner_white_bg_gray_stroke" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/tv_channel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="网络通道1"
+            android:textColor="@color/fontcolor"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/tv_encryption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="加密启用"
+                android:textColor="@color/fontcolor"
+                android:textSize="18sp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tv_compass"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="压缩启用"
+                android:textColor="@color/fontcolor"
+                android:textSize="18sp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/tv_connect_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontcolor"
+                android:text="断开"
+                android:textSize="18sp"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="接收字节数："
+            android:textColor="@color/fontcolor"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/food_fp_has_rest"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text=" 1224"
+            android:textColor="@color/fontcolor"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="发送字节数："
+            android:textColor="@color/fontcolor"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/send_byte"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text=" 2556"
+            android:textColor="@color/fontcolor"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="网络适配器："
+            android:textColor="@color/fontcolor"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_adapter_net"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="AAA"
+            android:textColor="@color/fontcolor"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_channel_amend"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/iv_amend"
+            android:layout_marginRight="60dp"
+            />
+        <ImageView
+            android:id="@+id/iv_channel_del"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/iv_del"
+            />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

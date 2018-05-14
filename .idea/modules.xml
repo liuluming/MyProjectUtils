@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/actionbarsherlock/actionbarsherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initActivity/initActivity.iml" filepath="$PROJECT_DIR$/initActivity/initActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nicedialog/nicedialog.iml" filepath="$PROJECT_DIR$/nicedialog/nicedialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshLibrary/pullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/pullToRefreshLibrary/pullToRefreshLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ripplelayoutmaster/ripplelayoutmaster.iml" filepath="$PROJECT_DIR$/ripplelayoutmaster/ripplelayoutmaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingmenu_library/slidingmenu_library.iml" filepath="$PROJECT_DIR$/slidingmenu_library/slidingmenu_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src-app.iml" filepath="$PROJECT_DIR$/src-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/synertone/synertone.iml" filepath="$PROJECT_DIR$/synertone/synertone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewbguilib/viewbguilib.iml" filepath="$PROJECT_DIR$/viewbguilib/viewbguilib.iml" />
+    </modules>
+  </component>
+</project>

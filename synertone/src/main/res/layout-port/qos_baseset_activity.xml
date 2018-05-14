@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#90A4AE">
+
+        <ImageButton
+            android:id="@+id/qos_btn_finish"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/running_statu_icon_back"
+            android:onClick="netWorkBasetOnFinish" />
+
+        <TextView
+            android:id="@+id/qos_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/qos_btn_finish"
+            android:text="QoS基本信息设置"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/download_all"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="下载总带宽"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <EditText
+                    android:id="@+id/qosbase_download_speed"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/bg_edittext"
+                    android:ems="8"
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/up_all"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="上传总带宽"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <EditText
+                    android:id="@+id/qosbase_upload_speed"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/bg_edittext"
+                    android:ems="8"
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/download_youxian"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="下载优先等级"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <Spinner
+                    android:id="@+id/qosbase_download_first"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/xialaspinner"
+                    android:entries="@array/opt_ji"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/up_youxian"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="上传优先等级"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <Spinner
+                    android:id="@+id/qosbase_upload_first"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/xialaspinner"
+                    android:entries="@array/opt_ji"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/danip_download"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="单IP最大下载带宽"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <EditText
+                    android:id="@+id/qosbase_download_oneip"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/bg_edittext"
+                    android:ems="8"
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/danip_up"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="单IP最大上传带宽"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <EditText
+                    android:id="@+id/qosbase_upload_oneip"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/bg_edittext"
+                    android:ems="8"
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/xianzhidanip_download"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="限制单IP下载带宽"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <EditText
+                    android:id="@+id/qosbase_punish_download_bwip"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/bg_edittext"
+                    android:ems="8"
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/xianzhidanip_up"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="限制单IP上传带宽"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <EditText
+                    android:id="@+id/qosbase_punish_upload_bwip"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/bg_edittext"
+                    android:ems="8"
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/xianzhidanip_downyouxian"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="限制单IP下载优先等级"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <Spinner
+                    android:id="@+id/qosbase_punish_download_oneip"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/xialaspinner"
+                    android:entries="@array/opt_ji"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/xianzhidanip_upyouxian"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="限制单IP上传优先等级"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <Spinner
+                    android:id="@+id/qosbase_punish_upload_oneip"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/xialaspinner"
+                    android:entries="@array/opt_ji"
+                    android:gravity="center"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/bt_xiansu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="BT限速"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <ToggleButton
+                    android:id="@+id/qosbase_bt_onoff"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selector_super_set_btnchoose"
+                    android:checked="false"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/down_max"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="下载最大带宽"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <EditText
+                    android:id="@+id/qosbase_download_maxspeed"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/bg_edittext"
+                    android:ems="8"
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_100PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/up_max"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/myfont"
+                    android:text="上传最大带宽"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <EditText
+                    android:id="@+id/qosbase_upload_maxspeed"
+                    android:layout_width="@dimen/DIMEN_150PX"
+                    android:layout_height="@dimen/DIMEN_70PX"
+                    android:background="@drawable/bg_edittext"
+                    android:ems="8"
+                    android:fontFamily="@string/myfont"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <Button
+                android:layout_width="@dimen/DIMEN_260PX"
+                android:layout_height="@dimen/DIMEN_90PX"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/DIMEN_30PX"
+                android:layout_marginTop="@dimen/DIMEN_30PX"
+                android:background="@drawable/qos_baocun_layout"
+                android:onClick="qosBasePostOnClick" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

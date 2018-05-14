@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/titlebgcolor">
+
+        <ImageButton
+            android:id="@+id/super_bwo_finish"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/running_statu_icon_back"
+            android:onClick="bwOverlyOnFinish" />
+
+        <TextView
+            android:id="@+id/bw_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/super_bwo_finish"
+            android:fontFamily="@string/myfont"
+            android:text="带宽叠加"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/super_bw_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_20PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:text="WAN口选择   :"
+        android:textColor="@color/fontcolor"
+        android:textSize="@dimen/DIMEN_30PX" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_100PX"
+        android:layout_marginRight="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_50PX"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/bw_check_wan01"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="wan1"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_20PX" />
+
+        <CheckBox
+            android:id="@+id/bw_check_wan02"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_marginLeft="@dimen/DIMEN_35PX"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="wan2"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_20PX" />
+
+        <CheckBox
+            android:id="@+id/bw_check_wan03"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_marginLeft="@dimen/DIMEN_35PX"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="wan3"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_20PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/DIMEN_50PX"
+        android:layout_marginLeft="@dimen/DIMEN_100PX"
+        android:layout_marginRight="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_50PX"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/bw_check_wan04"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="wan4"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_20PX" />
+
+        <CheckBox
+            android:id="@+id/bw_check_wan05"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_marginLeft="@dimen/DIMEN_35PX"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="wan5"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_20PX" />
+
+        <CheckBox
+            android:id="@+id/bw_check_wan06"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_marginLeft="@dimen/DIMEN_35PX"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="wan6"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_20PX" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_90PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bw_celue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="策略"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <Spinner
+            android:id="@+id/super_bw_plan"
+            android:layout_width="@dimen/DIMEN_200PX"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xialaspinner"
+            android:entries="@array/super_bw_plan"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <Button
+        android:id="@+id/bw_postbtn"
+        android:layout_width="@dimen/DIMEN_260PX"
+        android:layout_height="@dimen/DIMEN_90PX"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:background="@drawable/bwoverlay_tijiao_layout"
+        android:onClick="bwOverlyPost" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_90PX"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/tiaoshimoshi_bg"
+        android:gravity="center_vertical"
+        android:onClick="bwOverlyOnClick"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/DIMEN_60PX"
+            android:layout_height="@dimen/DIMEN_60PX"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16sp"
+            android:src="@drawable/gaoji" />
+
+        <TextView
+            android:id="@+id/bw_gaoji"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="13dp"
+            android:layout_weight="5"
+            android:fontFamily="@string/myfont"
+            android:text="高级"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/come_btn" />
+    </LinearLayout>
+
+</LinearLayout>

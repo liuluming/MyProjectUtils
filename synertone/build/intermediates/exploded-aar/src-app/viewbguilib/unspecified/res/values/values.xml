@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ButtonBgUi"><attr format="color" name="strokeColor"/><attr format="color" name="selectStrokeColor"/><attr format="color" name="pressedColor"/><attr format="color" name="defaultColor"/><attr format="boolean" name="isRipple"/><attr format="float" name="parameter"/><attr format="dimension" name="strokeWidth"/><attr format="dimension" name="raoundRadius"/><attr format="dimension" name="topLeftRadius"/><attr format="dimension" name="topRightRadius"/><attr format="dimension" name="bottomLeftRadius"/><attr format="dimension" name="bottomRightRadius"/></declare-styleable>
+    <string name="app_name">ViewBgUiLib</string>
+</resources>

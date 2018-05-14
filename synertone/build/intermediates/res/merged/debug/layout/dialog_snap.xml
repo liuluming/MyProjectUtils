@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pickertool="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/titleL"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/header_bar_color">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/Cancel"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/comfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="@string/yes"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleL"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.my51c.see51.widget.PickerView
+            android:id="@+id/picker1"
+            android:layout_width="60dp"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            pickertool:select_text_color="@color/header_bar_color"
+            pickertool:select_text_size="24sp"
+            pickertool:unselect_text_color="@color/text_color"
+            pickertool:unselect_text_size="18sp"></com.my51c.see51.widget.PickerView>
+
+        <TextView
+            android:id="@+id/hourTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/_hour"
+            android:textColor="@color/header_bar_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.my51c.see51.widget.PickerView
+            android:id="@+id/picker2"
+            android:layout_width="60dp"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            pickertool:select_text_color="@color/header_bar_color"
+            pickertool:select_text_size="24sp"
+            pickertool:unselect_text_color="@color/text_color"
+            pickertool:unselect_text_size="18sp"></com.my51c.see51.widget.PickerView>
+
+        <TextView
+            android:id="@+id/minTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/_minute"
+            android:textColor="@color/header_bar_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.my51c.see51.widget.PickerView
+            android:id="@+id/picker3"
+            android:layout_width="60dp"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            pickertool:select_text_color="@color/header_bar_color"
+            pickertool:select_text_size="24sp"
+            pickertool:unselect_text_color="@color/text_color"
+            pickertool:unselect_text_size="18sp"></com.my51c.see51.widget.PickerView>
+
+        <TextView
+            android:id="@+id/secondTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/_seconds"
+            android:textColor="@color/header_bar_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

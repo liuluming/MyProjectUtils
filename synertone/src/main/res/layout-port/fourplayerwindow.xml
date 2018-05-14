@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/fourwindows_topLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/header_bar_color">
+
+        <LinearLayout
+            android:id="@+id/fourwindows_back_layout"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shap_menu_linearlayout"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/back_img_shap" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/titleName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/fourwindows_back_layout"
+            android:text="@string/btnfourviews"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow
+                android:id="@+id/viewRow1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ViewFlipper
+                    android:id="@+id/viewFlipperPlay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:paddingBottom="2dip"
+                    android:paddingLeft="2dip"
+                    android:paddingRight="2dip"
+                    android:paddingTop="2dip">
+
+                </ViewFlipper>
+
+                <ViewFlipper
+                    android:id="@+id/viewFlipperPlay2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:paddingBottom="2dip"
+                    android:paddingLeft="2dip"
+                    android:paddingRight="2dip"
+                    android:paddingTop="2dip">
+
+                </ViewFlipper>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/viewRow2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ViewFlipper
+                    android:id="@+id/viewFlipperPlay3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:paddingBottom="2dip"
+                    android:paddingLeft="2dip"
+                    android:paddingRight="2dip"
+                    android:paddingTop="2dip">
+
+                </ViewFlipper>
+
+                <ViewFlipper
+                    android:id="@+id/viewFlipperPlay4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:paddingBottom="2dip"
+                    android:paddingLeft="2dip"
+                    android:paddingRight="2dip"
+                    android:paddingTop="2dip">
+
+                </ViewFlipper>
+            </TableRow>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:background="@color/transparent_gray"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/singleView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/full_screen" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/fourwindows_controlpanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imageButtonFlipV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/flipv"
+                android:text="@string/rotation"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/imageButtonAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/alarm"
+                android:text="@string/alarm"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/imageButtonDefinition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/avq_min"
+                android:text="@string/Definition"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/imageButtonFlipH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/fliph"
+                android:text="@string/mirror"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/imageButtonUpH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/uph"
+                android:text="@string/up"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/imageButtonLeftH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/lefth"
+                android:text="@string/left"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imageButtonSnap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/screenshot"
+                android:text="@string/paizhao"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+
+            <!-- bm-modi-1101 begain -->
+            <Button
+                android:id="@+id/imageButtonInterCom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/mic_off"
+                android:text="@string/Speech"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+            <!-- bm-modi-1101 end -->
+            <Button
+                android:id="@+id/imageButtonAudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/player_intercom_off"
+                android:text="@string/audio"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/imageButtonDownH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/downh"
+                android:text="@string/down"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/imageButtonRightH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/righth"
+                android:text="@string/right"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+
+            <!--  bm-modi-1101 begain -->
+
+            <Button
+                android:id="@+id/imageButtonRecord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/record"
+                android:text="@string/luxiang"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                android:visibility="invisible" />
+            <!--  bm-modi-1101 end -->
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+   	

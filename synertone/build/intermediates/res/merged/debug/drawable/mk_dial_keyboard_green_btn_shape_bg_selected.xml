@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <solid android:color="#227700" />
+            <corners
+                android:bottomLeftRadius="6dp"
+                android:bottomRightRadius="6dp"
+                android:topLeftRadius="6dp"
+                android:topRightRadius="6dp" />
+        </shape>
+    </item>
+
+</layer-list><!-- From: file:/E:/androidworkspace_as/sdk_v4_914/mksdk/MKApplication/MKKeyboard/src/main/res/drawable/mk_dial_keyboard_green_btn_shape_bg_selected.xml -->

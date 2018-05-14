@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shap_listview_white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/local_filetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="20151026 15:59:12"
+        android:textColor="@color/shenhui"
+        android:textSize="@dimen/txt_h5" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+        <FrameLayout
+            android:id="@+id/previewFra"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:scaleType="fitXY">
+
+            <ImageView
+                android:id="@+id/local_filepreview"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/cam_default_icon" />
+
+            <ImageView
+                android:id="@+id/local_video_logo"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/video_logo_img" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/local_filename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/previewFra"
+            android:singleLine="true"
+            android:text="20151026122323.mp4"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_h3" />
+
+        <TextView
+            android:id="@+id/local_filesize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/local_filename"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/previewFra"
+            android:paddingTop="2dp"
+            android:singleLine="true"
+            android:text="12345KB"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_h5" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:paddingTop="6dp">
+
+            <ImageView
+                android:id="@+id/local_choicce"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/listview_unchecked" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

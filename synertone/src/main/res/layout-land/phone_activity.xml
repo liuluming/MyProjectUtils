@@ -1,0 +1,210 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    tools:context="com.my51c.see51.app.activity.PhoneActivity"
+    tools:ignore="MergeRootFrame">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX"
+        android:background="#135c91">
+
+        <ImageButton
+            android:id="@+id/stop_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/running_nav_icon_back" />
+
+    </RelativeLayout>
+    <!-- 输入框 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_464PX"
+        android:background="#dddddd">
+
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="选择号码"
+            android:textColor="#330000"
+            android:textSize="@dimen/DIMEN_50PX"
+
+            />
+
+
+    </RelativeLayout>
+
+    <!-- 第一行 1，2，3 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <ImageButton
+            android:id="@+id/but1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_number_1_selector"
+            android:text="1" />
+
+        <ImageButton
+            android:id="@+id/but2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_number_2_selector"
+            android:text="2" />
+
+        <ImageButton
+            android:id="@+id/but3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_number_3_selector"
+            android:text="3" />
+    </TableRow>
+
+    <!-- 第二行 4，5，6 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <ImageButton
+            android:id="@+id/but4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_number_4_selector"
+            android:text="4" />
+
+        <ImageButton
+            android:id="@+id/but5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_number_5_selector"
+            android:text="5" />
+
+        <ImageButton
+            android:id="@+id/but6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_number_6_selector"
+            android:text="6" />
+    </TableRow>
+
+    <!-- 第三行 7，8，9 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <ImageButton
+            android:id="@+id/but7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_number_7_selector"
+            android:text="7" />
+
+        <ImageButton
+            android:id="@+id/but8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_number_8_selector"
+            android:text="8" />
+
+        <ImageButton
+            android:id="@+id/but9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_number_9_selector"
+            android:text="9" />
+    </TableRow>
+
+    <!-- 第四行 *，0，# -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <ImageButton
+            android:id="@+id/but10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_xing_selector"
+            android:text="*" />
+
+       <!-- <ImageButton
+            android:id="@+id/but11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_number_0_selector"
+            android:text="0" />-->
+
+        <ImageButton
+            android:id="@+id/but12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_jing_selector"
+            android:text="#" />
+    </TableRow>
+
+    <!-- 第五行 普通，网络，清除 -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <ImageButton
+            android:id="@+id/but13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_call_selector"
+            android:text="#" />
+
+        <ImageButton
+            android:id="@+id/but11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/internet_call"
+            android:text="0" />
+
+        <ImageButton
+            android:id="@+id/but15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/me_number_delete"
+            android:text="3" />
+    </TableRow>
+
+</TableLayout>

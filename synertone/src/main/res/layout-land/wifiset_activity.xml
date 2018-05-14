@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/titlebgcolor">
+
+        <ImageButton
+            android:id="@+id/wifiset_finish"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/running_statu_icon_back"
+            android:onClick="wifiSetOnFinish" />
+
+        <TextView
+            android:id="@+id/wifi_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/wifiset_finish"
+            android:text="Wi-Fi设置"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_80PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#F1F1F1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/wifi_wifi2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/DIMEN_8PX"
+                    android:layout_weight="5"
+                    android:fontFamily="@string/myfont"
+                    android:text="2.4G Wi-Fi"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <ToggleButton
+                    android:id="@+id/wifiset_onff24"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/DIMEN_10PX"
+                    android:background="@drawable/selector_super_set_btnchoose"
+                    android:checked="false"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="3"
+                        android:fontFamily="@string/myfont"
+                        android:text="名称"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <EditText
+                        android:id="@+id/wifiset_edname02"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/DIMEN_70PX"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:layout_weight="2"
+                        android:background="@drawable/fangkuang"
+                        android:fontFamily="@string/myfont"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_jiamiway"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="4"
+                        android:fontFamily="@string/myfont"
+                        android:text="加密方式"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <Spinner
+                        android:id="@+id/wifiset_password_way"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:layout_weight="2"
+                        android:background="@drawable/xialaspinner"
+                        android:entries="@array/wifisert_password_way"
+                        android:fontFamily="@string/myfont"
+                        android:textColor="@color/fontcolor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_xinhao"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="4"
+                        android:fontFamily="@string/myfont"
+                        android:text="信号强度"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <Spinner
+                        android:id="@+id/wifiset_singal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:layout_weight="2"
+                        android:background="@drawable/xialaspinner"
+                        android:entries="@array/wifiset_signal_strength"
+                        android:fontFamily="@string/myfont"
+                        android:textColor="@color/fontcolor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_pwd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="3"
+                        android:fontFamily="@string/myfont"
+                        android:text="密码"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <EditText
+                        android:id="@+id/wifiset_ed_24password"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/DIMEN_70PX"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:layout_weight="2"
+                        android:background="@drawable/fangkuang"
+                        android:fontFamily="@string/myfont"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_yincangwnagluo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="4"
+                        android:fontFamily="@string/myfont"
+                        android:text="隐藏网络"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <ToggleButton
+                        android:id="@+id/wifiset_hidenet_onoff"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/DIMEN_10PX"
+                        android:background="@drawable/selector_super_set_btnchoose"
+                        android:checked="false"
+                        android:textOff=""
+                        android:textOn="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_xindao"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="4"
+                        android:fontFamily="@string/myfont"
+                        android:text="信道"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <Spinner
+                        android:id="@+id/wifiset_24g_channel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:layout_weight="2"
+                        android:background="@drawable/xialaspinner"
+                        android:entries="@array/wifiset_24_channel"
+                        android:fontFamily="@string/myfont"
+                        android:textColor="@color/fontcolor" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_3PX"
+                android:background="#CFCFCF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_80PX"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#F1F1F1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/wifi_wifi5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/DIMEN_8PX"
+                    android:layout_weight="4"
+                    android:fontFamily="@string/myfont"
+                    android:text="5G Wi-Fi"
+                    android:textColor="@color/fontcolor"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <ToggleButton
+                    android:id="@+id/wifiset_onff5"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/DIMEN_10PX"
+                    android:background="@drawable/selector_super_set_btnchoose"
+                    android:checked="false"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/DIMEN_8PX"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_kaiqi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="4"
+                        android:fontFamily="@string/myfont"
+                        android:text="开启桥接网络"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <ToggleButton
+                        android:id="@+id/wifiset_bridged_net5"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/DIMEN_10PX"
+                        android:background="@drawable/selector_super_set_btnchoose"
+                        android:checked="false"
+                        android:textOff=""
+                        android:textOn="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_mingcheng"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="3"
+                        android:fontFamily="@string/myfont"
+                        android:text="名称"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <EditText
+                        android:id="@+id/wifiset_ed5name"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/DIMEN_70PX"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:layout_weight="2"
+                        android:background="@drawable/fangkuang"
+                        android:fontFamily="@string/myfont"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_jiami"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="4"
+                        android:fontFamily="@string/myfont"
+                        android:text="加密方式"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <Spinner
+                        android:id="@+id/wifiset_password_way5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:layout_weight="2"
+                        android:background="@drawable/xialaspinner"
+                        android:entries="@array/wifisert_password_way"
+                        android:fontFamily="@string/myfont"
+                        android:textColor="@color/fontcolor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_qiangdu"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="4"
+                        android:fontFamily="@string/myfont"
+                        android:text="信号强度"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <Spinner
+                        android:id="@+id/wifiset_singal5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:layout_weight="2"
+                        android:background="@drawable/xialaspinner"
+                        android:entries="@array/wifiset_signal_strength"
+                        android:fontFamily="@string/myfont"
+                        android:textColor="@color/fontcolor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_mima"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="3"
+                        android:fontFamily="@string/myfont"
+                        android:text="密码"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <EditText
+                        android:id="@+id/wifiset_ed_password5"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/DIMEN_70PX"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:layout_weight="2"
+                        android:background="@drawable/fangkuang"
+                        android:fontFamily="@string/myfont"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_yincang"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="4"
+                        android:fontFamily="@string/myfont"
+                        android:text="隐藏网络"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <ToggleButton
+                        android:id="@+id/wifiset_hidenet_onoff5"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/DIMEN_10PX"
+                        android:background="@drawable/selector_super_set_btnchoose"
+                        android:checked="false"
+                        android:textOff=""
+                        android:textOn="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_80PX"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wifi_xind"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_weight="4"
+                        android:fontFamily="@string/myfont"
+                        android:text="信道"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="@dimen/DIMEN_30PX" />
+
+                    <Spinner
+                        android:id="@+id/wifiset_5g_channel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:layout_weight="2"
+                        android:background="@drawable/xialaspinner"
+                        android:entries="@array/wifiset_24_channel"
+                        android:fontFamily="@string/myfont"
+                        android:textColor="@color/fontcolor" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/DIMEN_20PX"
+                android:layout_marginLeft="@dimen/DIMEN_100PX"
+                android:layout_marginRight="@dimen/DIMEN_100PX"
+                android:layout_marginTop="@dimen/DIMEN_30PX"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/DIMEN_90PX"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/DIMEN_40PX"
+                    android:layout_weight="1"
+                    android:background="@drawable/save_lan_btn"
+                    android:onClick="onWifiSetSave" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/DIMEN_90PX"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/DIMEN_40PX"
+                    android:layout_weight="1"
+                    android:background="@drawable/saveapp_selector"
+                    android:onClick="onWifiSetAppSave" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

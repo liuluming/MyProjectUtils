@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="wyzstarDB">
+
+        <!-- <dbname>用于设定数据库的名字 -->
+    </dbname>
+
+    <version value="1">
+
+        <!-- <version>用于设定数据库的版本号 -->
+    </version>
+
+    <list>
+
+        <!-- <list>用于设定所有的映射模型 -->
+
+        <mapping class="com.my51c.see51.app.bean.StarCodeModel"></mapping>
+    </list>
+
+</litepal>

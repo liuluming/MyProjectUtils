@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include layout="@layout/top_bar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="@string/adapter_net"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_25PX" />
+        <Spinner
+            android:id="@+id/tv_adapter_mode"
+            android:layout_width="@dimen/DIMEN_200PX"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xialaspinner"
+            android:spinnerMode="dropdown"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_25PX" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:divider="@drawable/shape_divider"
+        android:layout_marginTop="20dp"
+        android:showDividers="middle">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/tv_channel_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/channel_name"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_25PX" />
+            <EditText
+                android:id="@+id/et_channel_name"
+                android:layout_width="@dimen/DIMEN_200PX"
+                android:layout_height="@dimen/DIMEN_70PX"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/superset_kongbai"
+                android:fontFamily="@string/myfont"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text=""
+                android:layout_alignParentRight="true"
+                android:textColor="@color/fontcolor"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/tv_service_ip"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="服务器IP:"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_25PX" />
+            <EditText
+                android:id="@+id/et_service_ip"
+                android:layout_width="@dimen/DIMEN_200PX"
+                android:layout_height="@dimen/DIMEN_70PX"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/superset_kongbai"
+                android:fontFamily="@string/myfont"
+                android:gravity="center"
+                android:singleLine="true"
+                android:digits="1234567890."
+                android:text=""
+                android:layout_alignParentRight="true"
+                android:textColor="@color/fontcolor"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/tv_service_port"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="服务器端口号："
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_25PX" />
+            <EditText
+                android:id="@+id/et_service_port"
+                android:layout_width="@dimen/DIMEN_200PX"
+                android:layout_height="@dimen/DIMEN_70PX"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/superset_kongbai"
+                android:fontFamily="@string/myfont"
+                android:gravity="center"
+                android:inputType="number"
+                android:singleLine="true"
+                android:text=""
+                android:layout_alignParentRight="true"
+                android:textColor="@color/fontcolor"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/tv_authentication_account"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="认证账号："
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_25PX" />
+            <EditText
+                android:id="@+id/et_authentication_account"
+                android:layout_width="@dimen/DIMEN_200PX"
+                android:layout_height="@dimen/DIMEN_70PX"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/superset_kongbai"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:fontFamily="@string/myfont"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text=""
+                android:layout_alignParentRight="true"
+                android:textColor="@color/fontcolor"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/tv_authentication_cmd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="认证口令:"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_25PX" />
+            <EditText
+                android:id="@+id/et_authentication_cmd"
+                android:layout_width="@dimen/DIMEN_200PX"
+                android:layout_height="@dimen/DIMEN_70PX"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/superset_kongbai"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:fontFamily="@string/myfont"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text=""
+                android:layout_alignParentRight="true"
+                android:textColor="@color/fontcolor"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/tv_channel_encryption"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="数据加密："
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_25PX" />
+            <ToggleButton
+                android:id="@+id/tog_channel_encryption"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/DIMEN_10PX"
+                android:background="@drawable/selector_super_set_choose"
+                android:checked="false"
+                android:textOff=""
+                android:textOn="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_trunk_service"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/tv_channel_compass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="数据压缩："
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_25PX" />
+            <ToggleButton
+                android:id="@+id/tog_channel_compass"
+                android:layout_width="55dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/DIMEN_10PX"
+                android:background="@drawable/selector_super_set_choose"
+                android:checked="false"
+                android:textOff=""
+                android:textOn="" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_1PX"
+            android:layout_gravity="center"
+            android:background="#CFCFCF" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="@dimen/DIMEN_150PX"
+            android:layout_marginRight="@dimen/DIMEN_150PX"
+            android:gravity="center">
+            <Button
+                android:id="@+id/bt_channel_save"
+                style="@style/ButtonStyle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/button_save" />
+
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

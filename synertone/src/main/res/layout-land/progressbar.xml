@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:id="@+id/videoProgressBarLayout"
+  android:background="@drawable/bg_all">
+  <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" 
+  android:orientation="horizontal" android:id="@+id/progressBarImage" android:layout_centerInParent="true">    
+    <ProgressBar android:id="@+id/progressBarVideo" style="?android:attr/progressBarStyle" 
+	android:layout_height="wrap_content" android:layout_width="wrap_content" 
+	android:layout_gravity="center"/> 
+  </LinearLayout>
+  
+   <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" 
+   android:orientation="horizontal" android:id="@+id/progressBarText" 
+   android:layout_below="@+id/progressBarImage"> 	
+     <TextView android:id="@+id/loading" android:text="@string/loading"
+		style="@style/style2" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_marginLeft="125.0dip">
+     </TextView>
+  </LinearLayout>
+	
+</RelativeLayout>
+android:background="#0000003D"-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/play_preparent_bac">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@anim/loading2" />
+
+        <TextView
+            android:id="@+id/loading"
+            style="@style/style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/loading"></TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:src="@drawable/play_guid_up_down" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/swing_up_down"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:src="@drawable/play_guid_l_r" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/swing_l_r"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

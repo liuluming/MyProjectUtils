@@ -1,0 +1,82 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "26.0.2"
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+    allprojects {
+        configurations.all {
+            exclude group: 'com.android.support', module: 'support-v4'
+        }
+    }
+    defaultConfig {
+        applicationId "com.synertone.netAssistant"
+        minSdkVersion 16
+        targetSdkVersion 21
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+        buildConfigField "String", "BUILD_TIME", getDate()
+
+        multiDexEnabled false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+
+}
+
+String getDate() {
+    Date date = new Date()
+    String dates = "\"" + date.format("yyyy-MM-dd HH:mm", TimeZone.getDefault()) + "\""
+    return dates
+}
+
+dependencies {
+    compile project(':initActivity')
+    compile project(':ripplelayoutmaster')
+    compile project(':slidingmenu_library')
+    compile project(':pullToRefreshLibrary')
+    compile files('libs/aacdecoder-android-0.6.1.jar')
+    compile files('libs/achartengine-1.1.0.jar')
+    compile files('libs/android-support-v13.jar')
+    compile files('libs/baidumapapi_base_v3_6_1.jar')
+    compile files('libs/baidumapapi_cloud_v3_6_1.jar')
+    compile files('libs/baidumapapi_map_v3_6_1.jar')
+    compile files('libs/baidumapapi_radar_v3_6_1.jar')
+    compile files('libs/baidumapapi_search_v3_6_1.jar')
+    compile files('libs/baidumapapi_util_v3_6_1.jar')
+    compile files('libs/bugly_1.2.7_release.jar')
+    compile files('libs/edit_lib.jar')
+    compile files('libs/ForwardingDevelopmentTools_ver_1.0_release.jar')
+    compile files('libs/lib51see.jar')
+    compile files('libs/litepal-1.5.1.jar')
+    compile files('libs/locSDK_6.13.jar')
+    compile files('libs/uk.jar')
+    compile files('libs/voaacencoder.jar')
+    compile files('libs/volley.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    compile files('libs/yunzhixun_IM_SDK_ver_3.0.4.5_release.jar')
+    compile files('libs/yunzhixun_tcp_SDK_ver_3.0.5.3_release.jar')
+    compile files('libs/yunzhixun_video_SDK_v2.0.1.3_release.jar')
+    compile files('libs/zxing.jar')
+    compile files('libs/log4j-1.2.17.jar')
+    compile files('libs/android-logging-log4j-1.0.3.jar')
+    compile project(':viewbguilib')
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.github.zcweng:switch-button:0.0.3@aar'
+    compile('com.jakewharton:butterknife:8.5.1') {
+        exclude module: 'support-compat'
+    }
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile project(':nicedialog')
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+}

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/titlebgcolor">
+
+        <ImageButton
+            android:id="@+id/lanset_finish"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/running_statu_icon_back"
+            android:onClick="lanSetOnFinish" />
+
+        <TextView
+            android:id="@+id/lan_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/lanset_finish"
+            android:fontFamily="@string/myfont"
+            android:text="LAN口设置"
+            android:textColor="#fff"
+            android:textSize="@dimen/DIMEN_38PX" />
+    </RelativeLayout>
+
+    <!--     20161107  edit by hyw
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lan_setxieyi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DIMEN_10PX"
+                android:layout_weight="5"
+                android:fontFamily="@string/myfont"
+                android:text="协议"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_30PX" />
+
+            <Spinner
+                android:id="@+id/lan_protocol"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/DIMEN_10PX"
+                android:entries="@array/lan_protocol"
+                android:background="@drawable/xialaspinner"
+                android:gravity="center"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+     -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lan_ipadress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_10PX"
+            android:layout_weight="3"
+            android:fontFamily="@string/myfont"
+            android:text="IP地址"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/lanset_ipaddress"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_80PX"
+            android:layout_marginRight="@dimen/DIMEN_10PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lan_ziwangyanma"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_10PX"
+            android:layout_weight="3"
+            android:fontFamily="@string/myfont"
+            android:text="子网掩码"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/lanset_subnet_code"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_70PX"
+            android:layout_marginRight="@dimen/DIMEN_10PX"
+            android:layout_weight="2"
+            android:background="@drawable/fangkuang"
+            android:fontFamily="@string/myfont"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <!--   20161107  edit by hyw
+
+     <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/DIMEN_100PX"
+          android:layout_marginLeft="16dp"
+          android:layout_marginRight="16dp"
+          android:gravity="center_vertical"
+          android:orientation="horizontal" >
+
+          <TextView
+              android:id="@+id/lan_wangguan"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/DIMEN_10PX"
+              android:layout_weight="3"
+              android:fontFamily="@string/myfont"
+              android:text="网关"
+              android:textColor="@color/fontcolor"
+              android:textSize="@dimen/DIMEN_30PX" />
+
+          <EditText
+              android:id="@+id/lanset_gateway01"
+              android:layout_width="0dp"
+              android:layout_height="@dimen/DIMEN_70PX"
+              android:layout_marginRight="@dimen/DIMEN_10PX"
+              android:layout_weight="2"
+              android:textSize="@dimen/DIMEN_30PX"
+              android:background="@drawable/fangkuang"
+              android:fontFamily="@string/myfont"
+              android:singleLine="true"
+              android:gravity="center"
+              android:textColor="@color/fontcolor" />
+      </LinearLayout>
+
+      -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <!--    20161107  edit by hyw
+     <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/DIMEN_100PX"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/lan_broadcast"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="@dimen/DIMEN_10PX"
+               android:layout_weight="3"
+               android:fontFamily="@string/myfont"
+               android:text="广播"
+               android:textColor="@color/fontcolor"
+               android:textSize="@dimen/DIMEN_30PX" />
+
+           <EditText
+               android:id="@+id/lanset_gateway02"
+               android:layout_width="0dp"
+               android:layout_height="@dimen/DIMEN_70PX"
+               android:layout_marginRight="@dimen/DIMEN_10PX"
+               android:layout_weight="2"
+               android:background="@drawable/fangkuang"
+               android:fontFamily="@string/myfont"
+               android:singleLine="true"
+                android:gravity="center"
+                android:textSize="@dimen/DIMEN_30PX"
+               android:textColor="@color/fontcolor" />
+       </LinearLayout> -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lan_dchp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_10PX"
+            android:layout_weight="1"
+            android:fontFamily="@string/myfont"
+            android:text="DHCP"
+            android:textColor="@color/fontcolor"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <ToggleButton
+            android:id="@+id/lanset_dhcp_onff"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/DIMEN_10PX"
+            android:background="@drawable/selector_super_set_btnchoose"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lanset_dhcp_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_12PX"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lan_spoolstart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:fontFamily="@string/myfont"
+                android:text="地址池开始"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_30PX" />
+
+            <EditText
+                android:id="@+id/lanset_dhcp_start"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/DIMEN_70PX"
+                android:layout_marginRight="@dimen/DIMEN_10PX"
+                android:layout_weight="2"
+                android:background="@drawable/fangkuang"
+                android:fontFamily="@string/myfont"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_30PX" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_1PX"
+            android:background="#CFCFCF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lan_adressend"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:fontFamily="@string/myfont"
+                android:text="地址池结束"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_30PX" />
+
+            <EditText
+                android:id="@+id/lanset_dhcp_pend"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/DIMEN_70PX"
+                android:layout_marginRight="@dimen/DIMEN_10PX"
+                android:layout_weight="2"
+                android:background="@drawable/fangkuang"
+                android:fontFamily="@string/myfont"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_30PX" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_1PX"
+            android:background="#CFCFCF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lan_zuyongtime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:fontFamily="@string/myfont"
+                android:text="租用时间"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_30PX" />
+
+            <EditText
+                android:id="@+id/lanset_dhcp_renttime"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/DIMEN_70PX"
+                android:layout_marginRight="@dimen/DIMEN_10PX"
+                android:layout_weight="2"
+                android:background="@drawable/fangkuang"
+                android:fontFamily="@string/myfont"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/fontcolor"
+                android:textSize="@dimen/DIMEN_30PX" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_1PX"
+            android:background="#CFCFCF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_100PX"
+        android:layout_marginRight="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lan_set_btnsave"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_90PX"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/save_lan_btn"
+            android:onClick="onLanSetSave" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_90PX"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/DIMEN_40PX"
+            android:layout_weight="1"
+            android:background="@drawable/saveapp_selector"
+            android:onClick="onLanSetSaveApp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/logo_login" />
+
+
+        <EditText
+            android:id="@+id/login_ed_user"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/bg_account"
+            android:ems="10"
+            android:hint="请输入用户名"
+            android:paddingLeft="95dp"
+            android:singleLine="true"
+            android:text="snt" />
+
+        <EditText
+            android:id="@+id/login_ed_password"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_password"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:paddingLeft="95dp"
+            android:singleLine="true"
+            android:text="123" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_btn1"
+            android:onClick="onLogin"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="12dp">
+
+            <CheckBox
+                android:id="@+id/checkChoose"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_login_check"
+                android:button="@null"
+                android:clickable="true"
+                android:gravity="top" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@id/checkChoose"
+                android:background="@color/white"
+                android:fontFamily="@string/myfont"
+                android:text="记住密码"
+                android:textColor="@color/fontcolor"
+                android:textSize="13sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/white"
+                android:fontFamily="@string/myfont"
+                android:onClick="forget_pwd"
+                android:text="忘记密码"
+                android:textColor="@color/fontcolor"
+                android:textSize="13sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

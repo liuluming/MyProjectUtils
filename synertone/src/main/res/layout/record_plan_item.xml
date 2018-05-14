@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/shap_listview_linearlayout">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/alarm_on" />
+
+    <TextView
+        android:id="@+id/nStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp"
+        android:text="报警录像"
+        android:textColor="@color/text_color"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical|right"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="每一天"
+            android:textColor="@color/shenhui"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/nTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="00:00至03:15"
+            android:textColor="@color/shenhui"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

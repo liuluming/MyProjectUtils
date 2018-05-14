@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_sdrecord_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:singleLine="true"
+        android:textColor="@color/base_text_color"
+        android:textSize="@dimen/txt_h5" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+        <ImageView
+            android:id="@+id/iv_file_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/folder" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/iv_file_icon"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_sdrecord_filename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="eee"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_h3" />
+
+            <TextView
+                android:id="@+id/tv_sdrecord_filesize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:paddingTop="2dp"
+                android:singleLine="true"
+                android:text="12M"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_h5" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:paddingTop="6dp">
+
+            <ImageView
+                android:id="@+id/iv_download"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/bt_download_normal_sm" />
+
+            <ImageView
+                android:id="@+id/iv_cancel"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/bt_cancel_download_sm"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_play"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/bt_play_normal_sm"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.my51c.see51.widget.NumberProgressBar
+        android:id="@+id/progress_download"
+        style="@style/NumberProgressBar_Default"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        custom:progress="0" />
+</LinearLayout>
